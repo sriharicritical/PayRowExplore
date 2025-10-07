@@ -1,0 +1,647 @@
+<resources>
+    <string name="app_name">PayRow Mobile</string>
+    <string name="arabic">العربية</string>
+    <string name="urdu">اردو</string>
+    <string name="hindi">हिंदी</string>
+    <string name="bengali">বাংলা</string>
+    <string name="malayalam">മലയാളം</string>
+    <string name="telugu">తెలుగు</string>
+    <string name="chinese">中国人</string>
+    <string name="french">Français</string>
+
+    <string name="terms_and_conditions_short_text">Application of the General Terms and Conditions
+These general terms and conditions (General Terms and
+Conditions) constitute an integral part of the agreement regarding the delivery of the service to the merchant by the supplier.
+The general Terms and Conditions shall be applied unless the
+merchant and the Supplier have otherwise agreed in writing.
+The agreement will enter into force when the parties have
+signed the agreement or when the supplier has approved the
+agreement form submitted by the merchant for the service.</string>
+
+    <string name="about_us_text">PayRow is a B2B fintech player addressing retail and microfinance industry using the business model of platform-as-a-service. The company has been established in the year 2020 In payment industry veterans PayRow having an inspiring experience to extent in market.</string>
+
+    <string name="about_us_text_two">PayRow drives its services for each region (Middle East - Africa - South Asia) from ideation stage to the final revenue output. By offering company\'s - hardware and software are targeted either towards payment service providers or end merchants and business owners. For joining journey send interest to info@PayRow.ae</string>
+
+    <string name="text_ultimate_fintech_partner">"Ultimate Fintech Partner"</string>
+    <string name="text_services">1. SMB Retail – mPos, SoftPos Payment\n2. Delivery Boy - SoftPos Mobile Payment\n3. Enterprise Sub payment Account App\n4. Digital invoice\n5. Payment Transaction Switch
+    </string>
+    <string name="text_support_services">.Payment settlement\n.Dash Board\n.Tax/VAT Report\n.Purchase Summary\n.Inventory Report\n.Transaction Details\n.Loyalty Points History\n.Profit &amp; Lost Report\n.Business Valuation Report\n.Call Center Support </string>
+
+    <string name="button_width">225dp</string>
+    <string-array name="cities">
+        <item>Select City</item>
+        <item>Dubai</item>
+        <item>Abu Dhabi</item>
+        <item>Sharjah</item>
+        <item>Ajman</item>
+        <item>Umm AlQuwain</item>
+        <item>Ras AlKhaimah</item>
+        <item>Fujairah</item>
+    </string-array>
+
+    <string-array name="regcomplaints">
+        <item>Registered Complaints</item>
+        <item>Payment not working</item>
+        <item>App is too slow</item>
+        <item>Need help</item>
+        <item>App is crashing</item>
+    </string-array>
+
+    <string-array name="complaints">
+        <item>New Complaints</item>
+        <item>Payment not working</item>
+        <item>App is too slow</item>
+        <item>Need help</item>
+        <item>App is crashing</item>
+    </string-array>
+
+    <string name="address"></string>
+    <string name="address2"></string>
+
+    <string name="customer_copy">Customer Copy</string>
+    <string name="i_agree_to_terms_and_conditions">By signing up <b>I</b> agree to terms &amp; conditions</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="congratulations_on_successful_registration">Congratulations! You have been successfully registered with PayRow.Your PIN Number will be activated after your uploaded information is verified.</string>
+    <string name="no_app_available">No Application Available To View Pdf</string>
+    <string name="error_fetching_doc">Error In Fetching Document</string>
+    <string name="payrow_footer">&#169;2025 PayRow Company. All Rights Reserved</string>
+    <string name="we_have_sent_you_access_code">We have sent you access code via SMS for \nmobile number verification</string>
+    <string name="choose_your_favourite_language">Choose your favourite language</string>
+    <string name="please_select_a_language">Please select a language to proceed</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="verify_your_identity">Verify your identity</string>
+    <string name="fingerprint_authentication">Fingerprint Authentication</string>
+    <string name="please_place_your_finger">Please place your finger on the fingerprint sensor to authenticate</string>
+    <string name="touch_the_fingerprint_sensor">Touch the fingerprint sensor</string>
+    <string name="new_payment">New Payment</string>
+    <string name="cash_invoice">Cash Invoice</string>
+    <string name="expenses">Expenses</string>
+    <string name="payment_history">Payment History</string>
+    <string name="admin">Admin</string>
+    <string name="contact_payrow">Contact PayRow</string>
+    <string name="you_are_about_to_make_a_payment_to">You are about to make a payment</string>
+    <string name="invoice_number">Invoice Number</string>
+    <string name="add_item">Add Items</string>
+    <string name="pay">Pay</string>
+    <string name="please_enter_the_amount_to_proceed">Please enter the amount to proceed</string>
+    <string name="please_tap_your_card">Please tap your card</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="clear">Clear</string>
+    <string name="confirm">Confirm</string>
+    <string name="please_enter_pin_to_proceed">Please enter PIN to proceed</string>
+    <string name="payment_successful">Payment Successful</string>
+    <string name="click_to_view_receipt">Click to view receipt</string>
+    <string name="send_digital_receipt">Send digital receipt</string>
+    <string name="enter_whatsapp_number">Enter Whatsapp Number</string>
+    <string name="enter_your_email_id">Enter Your Email Id</string>
+    <string name="send">Send</string>
+    <string name="receipt_sent_successfully_to">Receipt sent successfully to</string>
+    <string name="home">Home</string>
+    <string name="and">and</string>
+    <string name="miscellaneuos">Miscellaneous</string>
+    <string name="salaries">Salaries</string>
+    <string name="rent">Rent</string>
+    <string name="enter_customer_name">Enter Customer Name</string>
+    <string name="enter_customer_vat_no">Enter Customer VAT No</string>
+    <string name="salary_payroll">Salary PayRoll</string>
+    <string name="maintenance">Maintenance</string>
+    <string name="chillar">Chillar</string>
+    <string name="total_sequence">Total Sequence</string>
+    <string name="total_debit">Total Debit</string>
+    <string name="total_credit">Total Credit</string>
+    <string name="quick_view">Quick View</string>
+    <string name="average">Average:</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="didnt_receive_otp">Didnt receive the OTP?</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="about_payrow">About PayRow</string>
+    <string name="contact_us">Contact US</string>
+    <string name="support">Support</string>
+    <string name="choose_your_service">Choose Your Service</string>
+    <string name="delivery_boy">Delivery POS</string>
+    <string name="staff">Staff</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_password">Your Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="select_city">Select City</string>
+    <string name="passport_number">Passport Number</string>
+    <string name="passport_expiry_date">Passport Expiry Date</string>
+    <string name="card_details">Card Details</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_expiry_date">Card Expiry Date</string>
+    <string name="card_holder_name">Card Holder Name</string>
+    <string name="cvv_number">CVV Number</string>
+    <string name="bank_details">Bank Details</string>
+    <string name="bank_branch">Bank Branch</string>
+    <string name="bank_account">Bank Account</string>
+    <string name="iban_number">IBAN Number</string>
+    <string name="vat_number">VAT Number</string>
+    <string name="address_details"></string>
+    <string name="capture_location">Capture Location</string>
+    <string name="website">Website</string>
+    <string name="str_address">Address</string>
+    <string name="smb">SMB</string>
+    <string name="invoice_recall">Invoice Recall</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="license_details">License Details</string>
+    <string name="company_name">Company Name</string>
+    <string name="license_number">License Number</string>
+    <string name="license_expiry_date">License Expiry Date</string>
+    <string name="establishment_card_number">Establishment Card Number</string>
+    <string name="staff_payroll">Staff PayRoll</string>
+    <string name="staff_name">Staff Name</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="joining_date">Joining Date</string>
+    <string name="visa_no">Visa Number</string>
+    <string name="salary">Salary</string>
+    <string name="account_no">Account Number</string>
+    <string name="add">Add</string>
+    <string name="view_staff_list">View Staff List</string>
+    <string name="alert">Alert</string>
+    <string name="are_you_sure_to_delete_this_item">Are you sure to delete this item?</string>
+    <string name="choose_items">Choose Items</string>
+    <string name="location_captured">Location Captured</string>
+    <string name="leave">Leave</string>
+    <string name="employee_relation">Employee Relation</string>
+    <string name="employee_certificate">Employee Certificate</string>
+    <string name="salary_certificate">Salary Certificate</string>
+    <string name="terms_and_conditions_of_economic_department">Terms and Conditions of economic department is applied.</string>
+    <string name="message">Message</string>
+
+    <string-array name="status">
+        <item>Status</item>
+        <item>Open</item>
+        <item>Close</item>
+    </string-array>
+    <string name="select_employee">Select Employee</string>
+    <string name="apply">Apply</string>
+    <string name="date">Date</string>
+    <string name="tap_to_pay">Tap to Pay</string>
+    <string name="total_vat">Total VAT</string>
+    <string name="proceed">Proceed</string>
+    <string name="payrow_co_founder">PayRow CEO &amp; Founder</string>
+    <string name="vision">Vision</string>
+    <string name="about_us">About US</string>
+    <string name="payrow_offers_a_solution">PayRow Offers a Solution</string>
+    <string name="support_services">Support Services</string>
+    <string name="time">Time</string>
+    <string name="selected_items">Selected Items</string>
+    <string name="vat">VAT:</string>
+    <string name="total_amount">TOTAL AMOUNT:</string>
+    <string name="thank_you">Thank You</string>
+    <string name="employee_name">Employee Name:</string>
+    <string name="employee_id">Employee Id:</string>
+    <string name="close">close</string>
+    <string name="nfc_a">NFC A</string>
+    <string name="nfc_b">NFC B</string>
+    <string name="pse">PSE (Payment System Environment)</string>
+    <string name="ppse">PPSE (Proximity Payment System Environment)</string>
+    <string name="aid">AID (Application Identifier)</string>
+    <string name="fci">FCI (File Control Information)</string>
+    <string name="position">Position:</string>
+    <string name="work_location">Work Location:</string>
+    <string name="go_green_with_payrow_services">Go Green with PayRow Services</string>
+    <string name="head_office_address">Head Office Address</string>
+    <string name="payrow_media_channel">PayRow Media Channel</string>
+    <string name="merchant_id_number">Merchant Id Number</string>
+    <string name="joining_date_colon">Joining Date:</string>
+    <string name="company_certificate">Company Certificate</string>
+    <string name="strategic_partner">Strategic Partner</string>
+    <string name="enter_your_email_address">Enter Your Email Address</string>
+    <string name="annual_leave">Annual Leave</string>
+    <string name="sick_leave">Sick Leave</string>
+    <string name="earned_leave">Earned Leave</string>
+    <string name="no_of_days">No. of Days</string>
+    <string name="balance_leaves">Balance Leaves</string>
+    <string name="profit_and_loss_report">Profit &amp; Loss Report</string>
+    <string name="you_are_about_to_make_a_payment">You are about to make a payment</string>
+    <string name="countries">&#8226;UAE\n&#8226;KSA\n&#8226;Oman\n&#8226;Singapore\n&#8226;Jordan\n&#8226;India\n&#8226;Pakisthan\n&#8226;Congo\n&#8226;Guinea</string>
+    <string name="store_owner">Store Owner</string>
+    <string name="store_manager_pos">Store Manager</string>
+
+    <string-array name="nationalities">
+        <item>Select Nation</item>
+        <item>U.A.E</item>
+        <item>India</item>
+        <item>Bahrain</item>
+        <item>Qatar</item>
+        <item>Saudi Arabia</item>
+    </string-array>
+
+    <string-array name="nameTitles">
+        <item>Select Title</item>
+        <item>Mr.</item>
+        <item>Mrs.</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="empStatus">
+        <item>Enable</item>
+        <item>Disable</item>
+    </string-array>
+
+    <string-array name="modeType">
+        <item>Select Type</item>
+        <item>WhatsApp</item>
+        <item>Email</item>
+        <item>SMS</item>
+    </string-array>
+
+    <string-array name="reasons">
+        <item>Select Reason</item>
+        <item>Wrong Product</item>
+        <item>Product Damaged</item>
+        <item>Product Not Needed</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>Select Year</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>Select Month</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="select_language">Select Language</string>
+    <string name="next">Next</string>
+    <string name="sign_in">Sign In</string>
+    <string name="payment_by_link">Pay By Link</string>
+    <string name="add_amount_to_pay">Add Amount to pay</string>
+    <string name="select_the_action_to_go_ahead">Select the action to go ahead</string>
+    <string name="scan_barcode">Scan BarCode</string>
+    <string name="amount">Amount</string>
+    <string name="tap_your_card_to_pay">Tap Your Card To Pay</string>
+    <string name="seconds_left">Seconds Left</string>
+    <string name="cancel">Cancel</string>
+    <string name="share_customer_copy">Share</string>
+    <string name="please_enter_your_pin">Enter Your PIN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="done">Done</string>
+    <string name="add_items">Add Items</string>
+    <string name="dotted_line">Sign ------------------------------------------</string>
+    <string name="product_not_needed">Return the Product</string>
+    <string name="expired_product">Expired Product</string>
+    <string name="product_damaged">Product Damaged</string>
+    <string name="wrong_product">Wrong Product</string>
+    <string name="submit">Submit</string>
+    <string name="select_reason">Select Reason</string>
+    <string name="number_of_complaints">Number of Complaints</string>
+    <string name="registered_complaints">Registered Complaints</string>
+    <string name="new_complaints">New Complaints</string>
+    <string name="select_complaint_type">Select Complaint Type</string>
+    <string name="payment_not_working">Payment Not Working</string>
+    <string name="app_is_too_slow">App is too slow</string>
+    <string name="need_help">Need help</string>
+    <string name="app_is_crashing">App is crashing</string>
+    <string name="quotation">Everything is possible to implement to you
+    must have good plan and believe. You
+    can start by taking risk and increase
+    your network.</string>
+    <string name="contact_us_feel_free">Feel free to contact us if you need any \nassistance, any help or another \nquestion</string>
+    <string name="authentication_code_sent">Authentication code sent Authorized Manager</string>
+    <string name="get_started">Get Started</string>
+    <string name="ultimate_fintech_partner">Ultimate Fintech Partner</string>
+    <string name="lorem_ipsum_is_simply_dummy_text_of_the_n_printing_and_typesetting_industry">Lorem Ipsum is simply dummy text of the \n printing and typesetting industry</string>
+    <string name="you_can_retrive_mid">You can retrieve your TID by entering your \nregistered email address.</string>
+    <string name="your_tid_sent">Your TID has been sent to you through \nemail, please check your mailbox</string>
+    <string name="about_us_quetation">With simplified fintech technology,\nyou Can satisfy a wider range of\ncustomer</string>
+    <string name="please_enter_received_amount">Please enter Received Amount to proceed</string>
+    <string name="payrow_soft_pos_mobile">PayRow Soft POS Mobile</string>\
+    <string name="digital_ekyc">\u2022 Digital eKYC \n\n\u2022 Support 8 language \n\n\u2022 Provide registration category</string>
+    <string name="provide_reg_category">a. Store Manager POS \nb. Delivery POS \nc. Staff POS</string>
+    <string name="auth_partner">\u2022 Authorized authentication partner \n\n\u2022 Cash Invoice \n\n\u2022 Invoice recall \n\n\u2022 Dashboard \n\n\u2022 Support center</string>
+    <string name="cash_received_machine">\u2022 Authorized authentication partner \n\n\u2022 Cash Invoice</string>
+    <string name="enter_amount_should_not_be">Received amount should not be lower than Total amount inc VAT</string>
+    <string name="pos_machine">\u2022 POS machine with a <annotation font="roboto_medium">Digital Screen</annotation> \n\n\u2022 The POS heavy duty is <annotation font="roboto_medium">Supported with \n\u0020 4G Technology</annotation> \n\n\u2022 The <annotation font="roboto_medium">Quantity Always Available</annotation> to fulfill the \n\u0020\u0020 requirement \n\n\u2022 <annotation font="roboto_medium">PCI-certified Product</annotation> \n\n\u2022 <annotation font="roboto_medium">NFC Supported</annotation></string>
+    <string name="payment_gateway">\u2022 PayRow Payment Gateway with a <annotation font="roboto_medium">Service \n\u0020 Catalog Supported by Multiple Settlements</annotation> \n\u0020 to different service codes at the same time. \n\n\u2022 PayRow Payment Gateway PCI Certified and <annotation font="roboto_medium">\n\u0020 the team export to integrate with any bank &amp; \n\u0020 scheme Processor endpoint.</annotation></string>
+    <string name="text_wps">\u2022 Salary transfer service with <annotation font="roboto_medium">WPS platform \n\u0020 customized for SMB</annotation> \n\n\u2022 Easy Employee onboarding and <annotation font="roboto_medium">integration \n\u0020 with SMB system. \n\n\u2022 Standard API</annotation> can support any System \n\n\u2022 PayRow Payment Gateway PCI Certified \n\u0020 and <annotation font="roboto_medium">the team export to integrate with any \n\u0020 bank &amp; scheme Processor endpoint.</annotation></string>
+    <string name="text_vat">\u2022 We are <annotation font="roboto_medium">aggregators providing multiple \n\u0020 options for auditors</annotation> who can provide an \n\u0020 Audit report. \n\n\u2022 Platform can <annotation font="roboto_medium">upload the invoice and record \n\u0020  of VAT report.</annotation> \n\n\u2022 Support the Customer and <annotation font="roboto_medium">provide a live \n\u0020  record of the auditor\'s performance</annotation></string>
+    <string name="text_ekyc">\u2022 <annotation font="roboto_medium">Data-enriched lending decisions</annotation> protect \n\u0020 merchants, consumers, and the industry. \n\n\u2022 Platform can <annotation font="roboto_medium">upload the invoice and record \n\u0020 of VAT report.</annotation> \n\n\u2022 Support the Customer and <annotation font="roboto_medium">provide a live \n\u0020 record of the auditor\'s performance</annotation></string>
+    <string name="text_bnpl">\u2022 <annotation font="roboto_medium">Multiple BNPL providers</annotation> with new providers \n\u0020 being added, keeping your BNPL stack up to \n\u0020 date. \n\n\u2022 <annotation font="roboto_medium">A single integration</annotation> point means merchants \n\u0020 save on the cost &amp; time associated with \n\u0020 implementing new providers. \n\n\u2022 <annotation font="roboto_medium">Data-enriched lending decisions</annotation> protect \n\u0020 merchants, consumers, and the industry.</string>
+    <string name="text_wallet">\u2022 Customize for <annotation font="roboto_medium">government close-loop \n\u0020 products.</annotation> \n\n\u2022 Support with <annotation font="roboto_medium">Corporate Close loop Card.</annotation> \n\n\u2022 Support with <annotation font="roboto_medium">Service Catalog.</annotation> \n\n\u2022 Easy to <annotation font="roboto_medium">integrate with Oracle and any finance \n\u0020 system.</annotation> \n\n\u2022 Dynamic performance dashboard.</string>
+    <string name="text_prepaidcard">\u2022 PayRow Provide a <annotation font="roboto_medium">Corporate prepaid Card to \n\u0020 support the Merchant</annotation> with government &amp;  \n\u0020 enterprise service charge transaction. \n\n\u2022 The Card is <annotation font="roboto_medium">supported by Visa globally.</annotation> \n\n\u2022 Customer can fill out the onboarding \n\u0020  process or <annotation font="roboto_medium">refile the cards in any FAB \n\u0020  Branch.</annotation></string>
+    <string name="logout_msg">TID and phone number are already registered on another device. If you click Continue, you will be signed out of the previous device and signed in here.</string>
+    <string name="leave_us_msg">Leave us a Message, We will contact you soon</string>
+    <string name="be_part_of_go_green">Together We Support Go-Green &amp; \nCashless Strategy</string>
+    <string name="kindly_confirm_pin_number">To Confirm The Number</string>
+    <string name="to_secure_your_login">To Secure Your Login</string>
+    <string name="to_process_your_login">To Process Your Login</string>
+    <string name="request_for_your_tid_by_entering_your_registered_information">Request for your TID by entering your registered information</string>
+    <string name="you_have_made_the_payment_successfully">Customer made payment successfully</string>
+    <string name="account_exist">Account Exist</string>
+    <string name="continue_">Continue</string>
+    <string name="session_timeout">Session Timeout, Please Login again..</string>
+    <!--<string name="soft_pos_text"><annotation font="roboto_medium">No hardware, no problem!</annotation> \n\nSoftPOS is the ideal solution for accepting contactless payments on user\'s smartphones, without any other devices. All you need is a mobile device. The System allows users to use a mobile device instead of a cash register or POS machine to accept bank cards and QR codes.</string>-->
+    <!--<string name="soft_pos_text_two">You will need to log in to the app, enter the transaction amount and confirm it. The cardholder can then hold the credit card or debit card or mobile wallet (Apple Pay, Google Pay, Samsung Pay) against the back of the phone until the transaction is complete.</string>-->
+    <!--<string name="pay_by_link_text">Pay By Link is a simple and useful tool to let customers pay through a secure link through credit and debit cards. Send payment link invoices by email and reduce time chasing unpaid ones with unique payment links that let you keep track of each payment request.</string>-->
+    <!--<string name="pay_by_link_text_two">That it gives customers a safe and convenient way to pay an invoice online, using a credit card, debit card, or other forms of electronic payment</string>-->
+    <!--<string name="pay_by_qr_code_text"><annotation font="roboto_medium">It’s direct, pay or donate</annotation> \n\nTransactions using QR codes are cheaper and simpler for both buyers and merchants. Acquirers benefit from lower operating costs because they do not need to deploy a point of sale (POS) to each merchant.</string>-->
+    <!--<string name="pay_by_qr_code_text_two">It requires a camera phone which make it prohibitively expensive for average users. It requires QR code reader software or an app to be installed to scan the QR code image. This is not possible in all types of cell phones.</string>-->
+    <string name="vat_text"><annotation font="roboto_medium">PayRow Support Value Added Tax which is a tax on goods and services that is levied at every stage of the supply chain.</annotation></string>
+    <string name="vat_text_two">\u2022 At each stage, a certain value (a small amount of the total tax) is added from the point of production to sales. \n\n\u2022 We help companies obtain an extensive list of audit firms and create a more transparent and competitive environment for audit firms to provide the best services.</string>
+    <string name="payment_gaeway_text"><annotation font="roboto_medium">PayRow digital payment methods are faster, safer, easier to collect, and less expensive for businesses.</annotation></string>
+    <string name="payment_gateway_text_two">PayRow features:\n\n\u2022 Complete flexibility in payment. \n\u2022 Revolutionary Pricing. \n\u2022 Get Paid Faster. \n\u2022 Secure Payment and Point-Of-Sale Integration. \n\u2022 Remote Terminal Management \n\u2022 Lower Operational Costs. \n\u2022 Access to Premium Payment Services.</string>
+    <string name="wps_text"><annotation font="roboto_medium">The Wage Protection System (WPS) is an electronic salary transfer system that allows organizations to pay wages.</annotation></string>
+    <string name="wps_text_two">\u2022 The business owner must open a bank account with a bank or an authorized agent if he does not already have a bank account. \n\n\u2022 The employer must sign an agreement with PayRow or with the agent to issue a PayRow card for salary collection. The employer can also issue instructions for salary transfer.</string>
+    <string name="bnpl_text"><annotation font="roboto_medium">PayRow benefits give consumers access to goods they might otherwise not be able to afford.</annotation></string>
+    <string name="bnpl_text_two">PayRow easier access to credit. also, provides some perks, particularly in the context of not being overburdened with debt that service providers should be careful to avoid. \n\n The company also provides low-interest rates for using the service and a very comfortable installment period.</string>
+    <string name="prepaid_card_text"><annotation font="roboto_medium">For people, PayRow prepaid card allows you to shop online for goods and services, even if you don\'t have a checking account with a bank.</annotation></string>
+    <string name="prepaid_card_text_two">This allows you to shop in the comfort of your home because you are limited to the amount on your card. \n\n For Merchants, you can load money onto your card, by having the customer pay directly through the payment channels listed on PayRow Application. \n\n Prepaid cards contain the account number, which makes it possible to directly deposit the value of purchases.</string>
+    <string name="cash_received_machine_txt">PayRow brings automation to life, transforming operational efficiency and elevating daily customer experiences. We streamline complete and connected solutions with unparalleled development, manufacturing, and support.</string>
+    <string name="cash_received_machine_txt_two">\u2022 Lightweight, sturdy, and durable \n\n\u2022 Stable And Reliable Performance with Android \n\n\u2022 Multiple Payment Options with QR code \n\n\u2022 Face recognition payment are supported \n\n\u2022 Built-in thermal printer with high efficiency \n\n\u2022 Easy installation and maintenance \n\n\u2022 PCI Certified Application</string>
+    <string name="pos_retail_machine_txt">PayRow smart POS terminal supports all payment channels covering mobile payment methods such as NFC Payment, Apple Pay, Samsung Pay, Alipay, WeChat Pay, and Quick Pass. \n\n\u2022 NFC Supports Type A&amp;B card Mifare card \n\n\u2022 ISO/ICE 14443 and ISO15693 compliant \n\n\u2022 Memory2GB RAM + 16GB \n\n\u2022 Display 5.99"HD+, 1440*720 \n\n\u2022 Non-removable lithium polymer battery; 7.6V/2580mAh \n\n\u2022 built-in 58mm thermal Print speed: 70mm/s \n\n\u2022 Paper roll: Φ40mm</string>
+    <string name="pos_retail_machine_txt_two">Turn your smartphone or tablet into a powerful POS. Manage sales, inventory and employees with ease; engage customers and increase your revenue. Whether you have single or multiple stores, our tools help run your business. \n\n\u2022 Android device with memory,easy to make secondary development \n\n\u2022 Compatible with multinational fiscal control module legal standards \n\n\u2022 Dual-screen with customer display to bring more user-friendly \n\n\u2022 Multifunctional interfaces help connect to the cash drawer \n\n\u2022 Barcode scanner, printer, and keyboard. \n\n\u2022 Multiple payment options with Contactless cards, chip cards \n\n\u2022 Face recognition make payments more convenient and efficient A built-in backup battery is optional \n\n\u2022 PCI Certified Application</string>
+    <string name="ekyc_text"><annotation font="roboto_medium">Customer Identification and Verification \n\nThe main benefit of using PayRow eKYC is that it eliminates the need to carry around multiple pieces of identification and can speed up transactions.</annotation> </string>
+    <string name="ekyc_text_two">\u2022 Customers with active digital accounts can also use the app to verify their identity in a few simple steps. \n\n\u2022 Safe and secure method to share confidential information. Easier compliance with the regulator\'s requirements. Instant verification against fraud. \n\n\u2022 Information and personal details are relayed timely and efficiently. Ease of access in facilitating the KYC process.</string>
+    <string name="decline">DECLINE</string>
+    <string name="payment_Decline">Payment Decline</string>
+    <string name="card_declined">Card Declined</string>
+    <string name="transaction_failed">Transaction Failed</string>
+    <string name="you_have_refund_success">You have made Refund successfully</string>
+    <string name="you_made_void_success">You have made void successfully</string>
+    <string name="pay_by_sms">Pay By SMS</string>
+    <string name="ok">Ok</string>
+    <string name="emv_app_select">Please select app</string>
+    <string name="handling">Processing</string>
+    <string name="emv_swing_card_ic">Tap your card or insert</string>
+    <string name="emv_confirm_card_no">Confirm card number</string>
+    <string name="emv_confirm_cert">Confirm certificate information</string>
+    <string name="card_cost_hint">Please input correct cost amount</string>
+    <string name="payment_summary">Payment Summary</string>
+    <string name="payrow_sur_charges">This is 3% of the order total before discount \nand is capped at AED 1 with a minimum of AED \n0.25 this fee support go green transformation</string>
+    <string name="soft_pos_text"><annotation font="roboto_medium">PayRow SoftPOS is the ideal solution for accepting contactless payments directly on users smartphones, without any other devices.</annotation></string>
+    <string name="soft_pos_text_two">\u2022 All you need is a mobile device that allows users to use a mobile device instead of a cash register or POS machine to accept bank cards and QR codes. \n\n\u2022 You will need to log in to the app, enter the transaction amount and confirm it.The cardholder can then hold the credit or debit card or mobile wallet (Apple Pay, Google Pay, Samsung Pay)against the back of the phone until the transaction is complete.</string>
+    <string name="pay_by_qr_code_text"><annotation font="roboto_medium">Payrow QRCodes are cheaper and simpler for both buyers and merchants.</annotation></string>
+    <string name="pay_by_qr_code_text_two">\u2022 Acquisitions benefit from lower operating costs because they do not need to deploy a point of sale(POS) for each moment. \n\n\u2022 Only Requires a camera phone and QR code reader software installed to scan a QR code image.</string>
+    <string name="pay_by_link_text"><annotation font="roboto_medium">PayRow Pay By Link is a simple and useful tool to let customers pay through a secure link through credit and debit cards.</annotation></string>
+    <string name="pay_by_link_text_two">\u2022 you can Send payment link invoices by email and reduce time chasing unpaid ones with unique payment links that let you keep track of each payment request. \n\n\u2022 That it gives customers a safe and convenient way to pay an invoice online, using a credit card, debit card, or other forms of electronic payment.</string>
+    <string name="failed">Failed</string>
+    <string name="payment_failed">Payment Failed</string>
+    <string name="pending">Pending</string>
+    <string name="payment_pending">Payment Pending</string>
+    <string name="link_sent_sucessfully">Link Sent Successfully</string>
+    <string name="internetnotavailable">Internet not Available</string>
+    <string name="service_unavialable">Service Not Available</string>
+    <string name="emv_card_no_error">Get Card info error</string>
+    <string name="swing_card_magnetic_stripe">Please Swipe the Card</string>
+
+    <string name="response_one">Refer to card issuer</string>
+    <string name="response_two">Refer to card issuer\'s special condition</string>
+    <string name="response_three">Invalid merchant or service provider</string>
+    <string name="response_four">Pick up card</string>
+    <string name="response_five">Do not honor</string>
+    <string name="response_six">Error</string>
+    <string name="response_seven">Pick up card, special condition</string>
+    <string name="response_eight">Honour with identification</string>
+    <string name="response_nine">Request in progress</string>
+    <string name="response_ten">Approved for partial amount</string>
+    <string name="response_eleven">Approved (VIP)</string>
+    <string name="response_twelve">Invalid transaction</string>
+    <string name="response_thirteen">Invalid amount</string>
+    <string name="response_fourtheen">No such card</string>
+    <string name="response_fifteen">No such issuer</string>
+    <string name="response_sixteen">Approved, update track 3</string>
+    <string name="response_seventeen">Customer cancellation</string>
+    <string name="response_eighteen">Customer dispute</string>
+    <string name="response_nineteen">Re-enter transaction</string>
+    <string name="response_twenty">Invalid response</string>
+    <string name="response_twentone">No action taken</string>
+    <string name="response_twentytwo">Suspected malfunction</string>
+    <string name="response_twentythree">Unacceptable transaction fee</string>
+    <string name="response_twentyfour">File update not supported by receiver</string>
+    <string name="response_twentyfive">No such record</string>
+    <string name="response_twentysix">Duplicate record update, old record replaced</string>
+    <string name="response_twentyseven">File update field edit error</string>
+    <string name="response_twentyeight">File locked out while update</string>
+    <string name="response_twentynine">File update error, contact acquirer</string>
+    <string name="response_twirty">Format error</string>
+    <string name="response_twirtyone">Issuer signed-off</string>
+    <string name="response_twirtytwo">Completed partially</string>
+    <string name="response_twirtythree">Expired card</string>
+    <string name="response_twirtyfour">Suspect Fraud</string>
+    <string name="response_twirtyfive">Pick-up, card acceptor contact acquirer</string>
+    <string name="response_twirtysix">Pick up, card restricted</string>
+    <string name="response_twirtyseven">Pick up, call acquirer</string>
+    <string name="response_twirtyeight">Pick up, Allowable PIN tries exceed</string>
+    <string name="response_twirtynine">No credit account (Visa ePay)</string>
+    <string name="response_fourty">Requested function not supported</string>
+    <string name="response_fourtyone">Pick up, lost card</string>
+    <string name="response_fourtytwo">No universal account</string>
+    <string name="response_fourtythree">Pick up, stolen card</string>
+    <string name="response_fourtyfour">No investment account</string>
+    <string name="response_fourtyfive">Reserved for ISO use</string>
+    <string name="response_fourtysix">Reserved for ISO use2</string>
+    <string name="response_fourtyseven">Reserved for ISO use3</string>
+    <string name="response_fourtyeight">Reserved for ISO use4</string>
+    <string name="response_fourtynine">Reserved for ISO use5</string>
+    <string name="response_fifty">Do not renew</string>
+    <string name="response_fiftyone">Not sufficient funds</string>
+    <string name="response_fiftytwo">No checking account</string>
+    <string name="response_fiftythree">No savings account</string>
+    <string name="response_fiftyfour">Expired Card</string>
+    <string name="response_fiftyfive">Incorrect PIN</string>
+    <string name="response_fiftysix">No card record</string>
+    <string name="response_fiftyseven">Not permitted to client</string>
+    <string name="response_fiftyeight">Not permitted to POS</string>
+    <string name="response_fiftynine">Suspected fraud</string>
+    <string name="response_sixty">Card acceptor contact acquirer</string>
+    <string name="response_sixtyone">Exceeds amount limit</string>
+    <string name="response_sixtytwo">Restricted card</string>
+    <string name="response_sixtythree">Security violation</string>
+    <string name="response_sixtyfour">Wrong original amount</string>
+    <string name="response_sixtyfive">Please perform contact transaction</string>
+    <string name="response_sixtysix">Acceptor call acquirer</string>
+    <string name="response_sixtyseven">Card to be picked up at ATM</string>
+    <string name="response_sixtyeight">Response received too late</string>
+    <string name="response_sixtynine">Reserved</string>
+    <string name="response_seventy">Invalid transaction; contact card issuer</string>
+    <string name="response_seventyone">Decline PIN not changed</string>
+    <string name="response_seventytwo">Reserved2</string>
+    <string name="response_seventythree">Reserved3</string>
+    <string name="response_seventyfour">Reserved4</string>
+    <string name="response_seventyfive">PIN tries exceeded</string>
+    <string name="response_seventysix">Wrong PIN, tries exceeded</string>
+    <string name="response_seventyseven">Wrong Reference No.</string>
+    <string name="response_seventyeight">Record Not Found</string>
+    <string name="response_seventynine">Already reversed</string>
+    <string name="response_eighty">Network error</string>
+    <string name="response_eightyone">Foreign network error</string>
+    <string name="response_eightytwo">Time-out at issuer</string>
+    <string name="response_eightythree">Transaction failed</string>
+    <string name="response_eightyfour">Pre-authorization timed out</string>
+    <string name="response_eightyfive">No reason to decline</string>
+    <string name="response_eightysix">Unable to verify PIN</string>
+    <string name="response_eightyseven">Purchase Approval Only</string>
+    <string name="response_eightyeight">Cryptographic failure</string>
+    <string name="response_eightynine">Authentication failure</string>
+    <string name="response_ninghty">Cutoff is in progress</string>
+    <string name="response_ninghtyone">Issuer unavailable</string>
+    <string name="response_ninghtytwo">Router unavailable</string>
+    <string name="response_ninghtythree">Transaction cannot be completed</string>
+    <string name="response_ninghtyfour">Duplicate Transmission</string>
+    <string name="response_ninghtyfive">Reconcile error / Auth Not found</string>
+    <string name="response_ninghtysix">System malfunction</string>
+
+    <string name="response_ninghtyseven">Reserved for future Postilion use</string>
+    <string name="response_ninghtyeight">Exceeds cash limit</string>
+    <string name="response_ninghtynine">Reserved for future Postilion use</string>
+    <string name="customer_payment_transaction_is_reversal">Customer Payment Transaction is Reversal. So, kindly note payment is back to the customer account due to error or issuer response.</string>
+    <string name="do_you_wantto_cancel_the_transaction">if you click continue, You will cancel ongoing QR Code Transaction.</string>
+    <string name="transaction_reversal">Transaction Reversal</string>
+    <string name="please_perform_contact_transaction">Please perform contact Transaction</string>
+    <string name="insert_swipe_tryanothercard">Insert, Swipe, or Try Another Card</string>
+    <string name="card_not_supported">Card Not Supported</string>
+    <string name="customer_transaction_declined">Customer Payment Transaction is Declined</string>
+    <string name="otp_sent_via_email">OTP sent via EMAIL to verify</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="kindly_enter_lesser_amount">Kindly enter lesser amount.</string>
+    <string name="please_enter_amount_greater_zero">Please enter amount is greater than zero</string>
+    <string name="please_select_item_to_proceed">Please select the items to proceed</string>
+    <string name="partially_approved">Partial Approval</string>
+    <string name="customer_payment_psrtilly_spproved">Payment Transaction is partially approved</string>
+    <string name="reversal">Reversal</string>
+    <string name="customer_payement_reversal">Customer Payment Transaction is Reversal</string>
+    <string name="customer_payment_declined">Customer Payment Transaction is Declined</string>
+    <string name="forgot_pin">Forgot PIN</string>
+    <string name="authorised_by_pin_entry">Authorised By PIN ENTRY</string>
+    <string name="please_debit_my_account">PLEASE DEBIT MY ACCOUNT</string>
+    <string name="partial_payment_is_due_to_ninsufficient_balance">Partial Payment is due to \ninsufficient balance</string>
+    <string name="amount_paid">Amount paid</string>
+    <string name="amount_due">Amount Due</string>
+    <string name="cancel_the_order">Cancel the order</string>
+    <string name="to_process_with_the_partial_payment_or_n_cancel_the_order">To process with the partial payment or \n Cancel the order</string>
+    <string name="select_continue">Select Continue</string>
+    <string name="the_customer_will_receive_payment_on_same_card_used_for_this_transaction_within_24_hours">The customer will receive payment on same card used for this transaction within 24 hours</string>
+    <string name="please_transaction_id">Please enter transaction id to proceed</string>
+    <string name="data_not_available">Data Not Available</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="failure">Failure: </string>
+    <string name="error">"Error: "</string>
+    <string name="complaints_not_getting">Complaints are not getting. Try again.</string>
+    <string name="compalints_status_updeted">Complaint status updated successfully!</string>
+    <string name="not_found">Not Found</string>
+    <string name="update_failed">Error: update failed</string>
+    <string name="please_enter_valid_pin">Please Enter valid pin</string>
+    <string name="tomany_attemts_tryagain">Too many failed attempts, please try again after 24 hrs..</string>
+    <string name="imei_no_not_verified">IMEI Number is Not verified</string>
+    <string name="link_created">Link created successfully!</string>
+    <string name="amount_reversal">Amount has been Reversal</string>
+    <string name="email_sent">Email Sent Successfully</string>
+    <string name="email_sending_failed">Error: Email sending failed.</string>
+    <string name="detailed_submitted">Your details submitted successfully</string>
+    <string name="distributor_not_found">Distributor Not found</string>
+    <string name="qr_generated">QR Generated successfully!</string>
+    <string name="otp_sent">OTP sent Successfully</string>
+    <string name="otp_verified">OTP Verified Successfully</string>
+    <string name="otp_invalid">OTP is invalid</string>
+    <string name="authentication_code_verified">Authentication code verified Successfully</string>
+    <string name="authcode_invalid">Authentication code is invalid</string>
+    <string name="please_enter_authcode">Please enter Authentication code</string>
+    <string name="failed_send_authcode">Failed to send authentication code</string>
+    <string name="device_not_found">Device Not found with </string>
+    <string name="key_expired">Key Expired</string>
+    <string name="create_pin">Created pin Successfully</string>
+    <string name="device_notregister">Device not registered, please register</string>
+    <string name="keys_failed">keys loading failed</string>
+    <string name="terminal_id_not_available">Terminal IDs are not available, Kindly contact your account manager.</string>
+    <string name="merchant_not_found">Merchant is not found.</string>
+    <string name="no_records_found">No Records Found</string>
+    <string name="link_generation_failed">Error: Link Generation failed</string>
+    <string name="qrcode_filed">Error: QR Generation Failed</string>
+    <string name="something_went_wrong">Something Went Wrong.</string>
+    <string name="success">SUCCESS</string>
+    <string name="no_data_found">No data found</string>
+    <string name="download_report">Download Report</string>
+    <string name="scanning_cancelled">Scanning Cancelled</string>
+    <string name="scanning_failed">Scanning Failed</string>
+    <string name="vat_calculator">VAT CALCULATOR</string>
+    <string name="change_terminalid">Change TerminalID</string>
+    <string name="describe_complaint">Describe Complaint</string>
+    <string name="brief_your_complaint">Brief your complaint</string>
+    <string name="_5_vat">5 %VAT:</string>
+    <string name="total_inc_vat">Total inc VAT</string>
+    <string name="xa">System Error</string>
+    <string name="xb">Error in Parsing</string>
+    <string name="xc">Message Type is Not Available</string>
+    <string name="xd">Proc Code Not Available</string>
+    <string name="xe">PAN Not Available</string>
+    <string name="xf">Exp Date Not Available</string>
+    <string name="xg">STAN Not Available</string>
+    <string name="xh">Terminal Not Available</string>
+    <string name="xi">Entry Mode is Not Available</string>
+    <string name="ym">Error getting HSM info</string>
+    <string name="yn">Check Pin Configuration</string>
+    <string name="yo">No remaining data patch to upload</string>
+    <string name="yp">Host EMV data parsing error</string>
+    <string name="yq">SP not registered</string>
+    <string name="yr">Invalid request</string>
+    <string name="sd">Unable to fetch Service Details</string>
+    <string name="i_s">Invalid Service ID</string>
+    <string name="ai">nvalid Merchant ID</string>
+    <string name="catelog_amount">Service Catalogue</string>
+    <string name="payment_status">Payment Status</string>
+    <string name="wrong_amount">Wrong Amount</string>
+    <string name="in_progress">Request In Progress</string>
+    <string name="enter_authentication_code">Enter Authentication Code</string>
+    <string name="count">Count</string>
+    <string name="download">Download</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="payment_done">Payment Done!</string>
+    <string name="transaction_successful">Transaction Successful</string>
+    <string name="select_proudct">Selected Product</string>
+    <string name="total_product_available_in_the_basket">Total Product available in the basket</string>
+    <string name="checkout">Checkout</string>
+    <string name="your_unable_add_item_multiple_times">Your Unable add this Item multiple time</string>
+    <string name="this_item_not_available_this_merchant">This Item is not available with merchant</string>
+    <string name="you_are_unable_to_enable_this_triger">You don\'t have multiple items in the catalogue.So you cannot enable this trigger</string>
+    <string name="digital_invoice_created">Digital Invoice Created</string>
+    <string name="thanks_for_using_digital_invoice">Thanks for using digital invoice</string>
+    <string name="qrcode_payment_utilized">QRCODE Payment Utilized</string>
+    <string name="thanks_for_using_digital_payment">Thanks for using digital payment</string>
+    <string name="paybylink_payment_utilized">PAYBYLINK Payment Utilized</string>
+    <string name="transaction_declined">Transaction Declined</string>
+    <string name="payment_inprogress">Payment In Progress</string>
+    <string name="this_refund_already_processed">The refund has already been processed.</string>
+    <string name="void_process_already_completed">The process of voiding has already been completed.</string>
+    <string name="no_sign_required_for_contactless_txn">NO SIGN REQUIRED FOR CONTACTLESS TXN</string>
+    <string name="pin_already_used">Pin is already used. Kindly Try with new pin.</string>
+    <string name="something_went_wrong_kindly_check_payement_status">Something went wrong. Kindly check transaction status in Payment Status.</string>
+    <string name="something_went_wrong_try">Something went Wrong,Please try again.</string>
+    <string name="service_activiation">Service Activation</string>
+    <string name="kindly_disable_service_catalog_to_scanbarcode">Kindly disable Service Catalogue to activate the ScanBarCode</string>
+    <string name="kindly_disable_scanbarcode_to_activate_servicecatalogue">Kindly disable ScanBarCode to activate the Service Catalogue</string>
+    <string name="kinldy_scan_the_qr_fech_the_amount">Kindly Scan the QRCode and Fetch the amount</string>
+    <string name="default_items_not_available">Default Items Not available. Please try again.</string>
+    <string name="failed_please_try_again">Service Failed, Please try again</string>
+    <string name="payrow_digital_fee">PayRow Digital Fee</string>
+    <string name="we_need_location_permission_to_proceed_further">We need location permission to proceed further</string>
+    <string name="bluetooth_permission_denied_error_msg">We need bluetooth permission to get device list.</string>
+</resources>

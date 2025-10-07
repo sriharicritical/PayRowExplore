@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/share_square_background"
+    android:orientation="vertical"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivBackBtn"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="6.5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_grey" />
+
+            <TextView
+                android:id="@+id/tvShare"
+                android:layout_width="158dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="9.5dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/share_customer_copy"
+                android:textColor="@color/thick_gray"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivWhatsApp"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_icon_whatsapp_active"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivEmail"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_icon_email_active" />
+
+            <ImageView
+                android:id="@+id/ivSMS"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_icon_sms_default"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivPrint"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_print"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivQRCode"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_qr_code_24"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvShareOptionTitle"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="26dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Email"
+            android:textColor="@color/thick_gray"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/roboto_medium"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/thick_gray"
+            android:textSize="16sp"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clWhatsapp"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="2dp"
+            android:visibility="gone">
+
+
+            <EditText
+                android:id="@+id/etWhatsApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/roboto_medium"
+                android:hint="561563669"
+                android:inputType="number"
+                android:paddingStart="104dp"
+                android:textColor="@color/thick_gray"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="54dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="+971"
+                android:textColor="@color/thick_gray"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/ivFlag"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginBottom="2dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_flag_uae"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imgDropDown"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_play_arrow_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/ivFlag"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/ivProceed"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="38.4dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/button_round_dark_gray_bg_fill"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingStart="16dp"
+            android:paddingEnd="8dp"
+            android:text="Share"
+            android:textAlignment="viewStart"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/button_round_gray_border"
+            android:drawableEnd="@drawable/ic_baseline_thick_gray_forward"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="8dp"
+            android:text="@string/home"
+            android:textAlignment="viewStart"
+            android:textAllCaps="true"
+            android:textColor="@color/color_text"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

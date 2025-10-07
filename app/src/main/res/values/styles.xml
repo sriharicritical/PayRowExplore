@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyRadioButtonStyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/button_tint</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/share_square_background</item>
+    </style>
+
+    <style name="SpinnerTheme" parent="android:Widget.Material.Spinner.Underlined">
+        <item name="android:background">@drawable/spinnerbg
+        </item>
+        <item name="android:popupBackground">@drawable/spinnerbg
+        </item>
+
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="Style.MonthYearPickerDialog.Orange" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Style.DialogButton.Black</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Style.DialogButton.Orange</item>
+        <item name="headerBackgroundColor">@color/colorPrimary</item>
+        <item name="headerTextColor">@color/white</item>
+        <item name="headerTextColorSelected">@color/color_black</item>
+        <item name="monthBackgroundColorSelected">@color/colorPrimary</item>
+        <item name="monthTextColor">@color/color_black</item>
+        <item name="monthTextColorDisabled">#4F000000</item>
+        <item name="monthTextColorSelected">@color/color_black</item>
+        <item name="yearTextColor">@color/color_black</item>
+        <item name="yearTextColorSelected">@color/colorPrimary</item>
+    </style>
+
+    <style name="Style.DialogButton.Black" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <style name="Style.DialogButton.Orange" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- 默认dialog的样式 -->
+    <style name="DefaultDialogStyle" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="PIN_TEXT_DISPLAY">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#DE000000</item>
+        <item name="android:textColorHint">#8A000000</item>
+    </style>
+
+    <style name="EditTextTheme" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+</resources>

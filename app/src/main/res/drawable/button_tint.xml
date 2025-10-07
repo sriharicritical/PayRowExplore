@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:state_window_focused="true"
+        android:drawable="@drawable/ic_vector_2x" />
+    <item android:state_pressed="false" android:state_window_focused="false"
+        android:drawable="@drawable/ic_ellipse_2x" />
+    <item android:state_pressed="true" android:state_window_focused="false"
+        android:drawable="@drawable/ic_vector_2x" />
+</selector>

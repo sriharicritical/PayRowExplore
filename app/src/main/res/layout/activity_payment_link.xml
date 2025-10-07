@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout" />
+
+    <ImageView
+        android:id="@+id/ivPayRowLogo2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_icon_watermark"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logoMashref"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/payrow_icon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/tvStoreName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:maxLength="15"
+        android:text="@string/company_name"
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoMashref" />
+
+    <TextView
+        android:id="@+id/tvChooseYourCategory"
+        android:layout_width="296dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:text="@string/you_are_about_to_make_a_payment_to"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvStoreName" />
+
+    <Button
+        android:id="@+id/btnInvoiceNumber"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="38dp"
+        android:background="@color/white"
+        android:fontFamily="@font/sfprodisplay_medium"
+        android:gravity="center"
+        android:padding="5dp"
+        android:stateListAnimator="@null"
+        android:text="MID: 8765432135"
+        android:textColor="@color/color_text"
+        android:textSize="13sp"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvChooseYourCategory" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clAddItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnInvoiceNumber">
+
+
+        <Button
+            android:id="@+id/btnAddItem"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_round_bg_light_gray_small_curve"
+            android:drawableEnd="@drawable/ic_icon_add_circle"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="ADD ITEMS"
+            android:visibility="gone"
+            android:textAllCaps="true"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnItemCount"
+            android:layout_width="71dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/button_add_item_background"
+            android:fontFamily="@font/sfprodisplay_medium"
+            android:gravity="center"
+            android:text="+0 items"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textColor="@color/thick_gray"
+            android:textSize="13sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnScanBarCode"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_vector_scan_barcode"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/scan_barcode"
+            android:textAllCaps="true"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnAddItem" />
+
+        <TextView
+            android:id="@+id/btnQRMultiUse"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:text="QR MULTIPLE USE"
+            android:textAllCaps="true"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnScanBarCode" />
+
+        <ImageView
+            android:id="@+id/ivMultiON"
+            android:layout_width="34dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="58dp"
+            android:src="@drawable/ic_multi_enable_off"
+            android:visibility="gone"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnScanBarCode" />
+
+        <ImageView
+            android:id="@+id/ivMultiOFF"
+            android:layout_width="34dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="55dp"
+            android:src="@drawable/ic_multi_enable_off"
+            android:visibility="gone"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnScanBarCode" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/ivDottedLine"
+        android:layout_width="296dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/dotted_line"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clAddItems" />
+
+    <TextView
+        android:id="@+id/tvTotalAmountLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="Add amount to pay"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/clTotalAmount"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clTotalAmount"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPay"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/tvAmountLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginStart="7dp"
+            android:text="Amount"
+            android:textColor="@color/color_text"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etEnterAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="0.00"
+            android:imeOptions="actionDone"
+            android:includeFontPadding="true"
+            android:inputType="numberDecimal"
+            android:maxLength="7"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/thick_gray"
+            android:textSize="22sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingEnd="5dp"
+            android:text="AED"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="296dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_gray_before_selection"
+        android:drawableStart="@drawable/ic_pay_with_3_lines"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+        android:paddingStart="20dp"
+        android:paddingEnd="15dp"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/clTV"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/clTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:text="@string/payrow_footer"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

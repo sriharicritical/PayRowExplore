@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".contactpayrow.RaiseComplaintsActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout" />
+
+    <ImageView
+        android:id="@+id/ivWatermarkTop"
+        android:layout_width="36dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_icon_watermark"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/ivWatermarkBelow"
+        android:layout_width="36dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/ic_icon_watermark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/payRowLogo"
+        android:layout_width="150dp"
+        android:layout_height="48.53dp"
+        android:src="@drawable/icon_payrow"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/tvSelectComplaint"
+        android:layout_width="144dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="24.47dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/select_complaint_type"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#4C4C4C"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payRowLogo" />
+
+    <Button
+        android:id="@+id/btnPayNotWork"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_round_gray_border_thin"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingStart="16dp"
+        android:paddingEnd="10.02dp"
+        android:text="@string/payment_not_working"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/color_text_80"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSelectComplaint" />
+
+    <Button
+        android:id="@+id/btnAppSlow"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_round_gray_border_thin"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingStart="16dp"
+        android:paddingEnd="10.02dp"
+        android:text="@string/app_is_too_slow"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/color_text_80"
+        android:textSize="14sp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPayNotWork" />
+
+    <Button
+        android:id="@+id/btnNeedHelp"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_round_gray_border_thin"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingStart="16dp"
+        android:paddingEnd="10.02dp"
+        android:text="@string/need_help"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/color_text_80"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAppSlow" />
+
+    <Button
+        android:id="@+id/btnAppCrash"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_round_gray_border_thin"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingStart="16dp"
+        android:paddingEnd="10.02dp"
+        android:text="@string/app_is_crashing"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/color_text_80"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNeedHelp" />
+
+    <TextView
+        android:id="@+id/tvWriteComplaint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/describe_complaint"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#4C4C4C"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAppCrash" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clTransactionNum"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWriteComplaint">
+
+        <TextView
+            android:id="@+id/tvAmountLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingStart="3dp"
+            android:text="@string/brief_your_complaint"
+            android:textColor="@color/color_pin"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etComplaintDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/roboto_regular"
+            android:includeFontPadding="true"
+            android:hint="Enter complaint description"
+            android:inputType="text"
+            android:paddingStart="5dp"
+            android:gravity="start"
+            android:imeOptions="actionDone"
+            android:textColorHint="#4C4C4C"
+            android:maxLength="28"
+            android:maxLines="1"
+            android:textColor="#4C4C4C"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_round_dark_gray_bg_fill"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="@string/submit"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/clFooter"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/payrow_footer"
+            android:textAlignment="center"
+            android:textColor="@color/color_gray"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

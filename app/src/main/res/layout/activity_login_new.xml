@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".login.LoginActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <ImageView
+            android:id="@+id/logoMashref"
+            android:layout_width="150dp"
+            android:layout_height="48.53dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/payrow_icon"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clCredentials"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40.47dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logoMashref">
+
+            <TextView
+                android:id="@+id/tvSignIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acumin_variable_concept"
+                android:text="Re-enter PIN"
+                android:textColor="@color/gray"
+                android:textSize="20sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvByUsingSmartId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/acumin_variable_concept"
+                android:text="@string/kindly_confirm_pin_number"
+                android:textAlignment="center"
+                android:textColor="@color/color_text_102"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvSignIn" />
+
+            <ImageView
+                android:id="@+id/ivLoginSmartId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_50dp"
+                android:textColor="@android:color/white"
+                android:visibility="gone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvByUsingSmartId" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+      <!--  <com.payment.payrowmobile.utils.PinEntryEdittext
+            android:id="@+id/pinview"
+            style="@style/PIN_TEXT_DISPLAY"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:cursorVisible="true"
+            android:inputType="numberPassword"
+            android:layout_marginTop="26dp"
+            android:maxLength="4"
+            android:textIsSelectable="false"
+            android:theme="@style/EditTextTheme"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/clCredentials" />
+         -->  <com.goodiebag.pinview.Pinview
+               android:id="@+id/pinview"
+               android:layout_width="296dp"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="26dp"
+               app:cursorVisible="true"
+               app:forceKeyboard="false"
+               app:hint="*"
+               app:inputType="number"
+               app:layout_constraintLeft_toLeftOf="parent"
+               app:layout_constraintRight_toRightOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/clCredentials"
+               app:password="true"
+               app:pinBackground="@drawable/pinview_background"
+               app:pinHeight="52dp"
+               app:pinLength="4"
+               app:pinWidth="50dp"
+               app:textSize="6sp" />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/button_round_dark_gray_bg_fill"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:enabled="true"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="@string/submit"
+            android:textAlignment="viewStart"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pinview" />
+
+
+        <TextView
+            android:id="@+id/btnForgotPin"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="15dp"
+            android:text="00:45"
+            android:textColor="@color/color_items_header"
+            android:textSize="13sp"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSignIn" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSignIn">
+
+            <TextView
+                android:id="@+id/tvCreateAccount"
+                android:layout_width="94dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="32dp"
+                android:fontFamily="@font/sfprodisplay_medium"
+                android:paddingStart="2dp"
+                android:text="@string/create_account"
+                android:textSize="13sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/tvForgetPwd"
+                android:layout_width="72dp"
+                android:layout_height="18dp"
+                android:layout_marginEnd="32dp"
+                android:fontFamily="@font/sfprodisplay_medium"
+                android:gravity="end"
+                android:paddingRight="1dp"
+                android:text="Forgot PIN?"
+                android:textSize="13sp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="296.63dp"
+        android:layout_height="175.21dp"
+        android:src="@drawable/hero_shot"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/tvCopyRight"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLay" />
+
+
+    <TextView
+        android:id="@+id/tvCopyRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/payrow_footer"
+        android:textAlignment="center"
+        android:textColor="@color/color_gray"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

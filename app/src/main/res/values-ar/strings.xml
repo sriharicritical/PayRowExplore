@@ -1,0 +1,241 @@
+<resources>
+    <string name="app_name">PayRow موبايل</string>
+    <string name="arabic">العربية</string>
+    <string name="urdu">اردو</string>
+    <string name="hindi">हिंदी</string>
+    <string name="bengali">বাংলা</string>
+    <string name="malayalam">മലയാളം</string>
+    <string name="telugu">తెలుగు</string>
+    <string name="chinese">中国人</string>
+    <string name="french">Français</string>
+
+    <string name="terms_and_conditions_short_text">تطبيق الشروط والأحكام العامة
+هذه الشروط والأحكام العامة (الشروط العامة و
+تشكل الشروط) جزءًا لا يتجزأ من الاتفاقية المتعلقة بتقديم الخدمة إلى التاجر من قبل المورد.
+تطبق الشروط والأحكام العامة ما لم يكن
+وافق التاجر والمورد على خلاف ذلك كتابةً.
+سيدخل الاتفاق حيز التنفيذ عندما يكون لدى الأطراف
+توقيع الاتفاقية أو عندما يوافق المورد على
+نموذج اتفاقية مقدم من التاجر للخدمة</string>
+
+    <string name="about_us_text">PayRow هي شركة B2B Fintech تتعامل مع التجزئة
+        وصناعة التمويل الأصغر باستخدام نموذج الأعمال الخاص بالمنصة كخدمة.
+        تأسست الشركة في عام 2021 في مجال صناعة الدفع
+        تتمتع PayRow بتجربة ملهمة إلى حد كبير في السوق.</string>
+    <string name="text_ultimate_fintech_partner">"Ultimate Fintech partner"</string>
+    <string name="text_services">
+         1. التجزئة SMB
+ – mPos ، دفع SoftPos
+\n
+2. فتى التوصيل
+ - الدفع عبر الهاتف المحمول SoftPos
+\n
+3. طلب حساب الدفع الفرعي للمؤسسات
+\n
+4. الفاتورة الرقمية
+
+    </string>
+    <string name="text_support_services">1. تسوية المدفوعات
+\n2. لوحة القيادة\n3. تقرير الضريبة / ضريبة القيمة المضافة
+\n4. ملخص شراء
+\n5. تقرير المخزونات
+\n6. تفاصيل الصفقه
+\n7. تاريخ نقاط الولاء
+\n8. الربح وأمبير. تقرير ضائع
+\n9. تقرير تقييم الأعمال
+</string>
+
+    <string name="button_width">225dp</string>
+    <string-array name="cities">
+        <item>اختر مدينة</item>
+        <item>دبي</item>
+        <item>أبو ظبي</item>
+        <item>الشارقة</item>
+        <item>عجمان</item>
+        <item>أم القيوين</item>
+        <item>رأس الخيمة</item>
+        <item>الفجيرة</item>
+    </string-array>
+
+    <string-array name="complaints">
+        <item>Select Complaint Type</item>
+        <item>Payment not working</item>
+        <item>App is too slow</item>
+        <item>Need help</item>
+        <item>App is crashing</item>
+
+    </string-array>
+
+    <string name="address"># 808, أبراج برجمان التجارية
+\n
+
+شارع الشيخ خليفة بن زايد
+, دبي
+, الإمارات العربية المتحدة
+\n
+
+غانم عيد بن وجيه
+\n
+
++971508759759\n
+
+Ghanim@criticalriver.com</string>
+
+    <string name="customer_copy">نسخة العميل</string>
+    <string name="i_agree_to_terms_and_conditions">بالتسجيل أنا أوافق على الشروط والأحكام وسياسة الخصوصية</string>
+    <string name="terms_and_conditions">شروط وأمبير. الظروف</string>
+    <string name="congratulations_on_successful_registration">تهانينا! لقد تم تسجيلك بنجاح في PayRow.</string>
+    <string name="no_app_available">لا يوجد تطبيق متاح لعرض ملف PDF</string>
+    <string name="error_fetching_doc">خطأ في إحضار المستند</string>
+    <string name="payrow_footer">&#169;2021 شركة PayRow. كل الحقوق محفوظة</string>
+    <string name="we_have_sent_you_access_code">لقد أرسلنا لك رمز الوصول عبر الرسائل القصيرة للتحقق من رقم الهاتف المحمول</string>
+    <string name="choose_your_favourite_language">اختر لغتك المفضلة</string>
+    <string name="please_select_a_language">الرجاء تحديد لغة للمتابعة</string>
+    <string name="password">كلمه السر</string>
+    <string name="create_account">إنشاء حساب</string>
+    <string name="forgot_password">هل نسيت كلمة السر</string>
+    <string name="verify_your_identity">تحقق من هويتك</string>
+    <string name="fingerprint_authentication">المصادقة ببصمة الإصبع</string>
+    <string name="please_place_your_finger">يرجى وضع إصبعك على مستشعر بصمة الإصبع للمصادقة</string>
+    <string name="touch_the_fingerprint_sensor">المس مستشعر بصمة الإصبع</string>
+    <string name="new_payment">دفعة جديدة</string>
+    <string name="cash_invoice">الفاتورة النقدية</string>
+    <string name="expenses">نفقات</string>
+    <string name="payment_history">تاريخ الدفع</string>
+    <string name="admin">مشرف</string>
+    <string name="contact_payrow">اتصل بـ PayRow</string>
+    <string name="you_are_about_to_make_a_payment_to">أنت على وشك إجراء دفعة لـ</string>
+    <string name="invoice_number">رقم الفاتورة</string>
+    <string name="add_item">اضافة عنصر</string>
+    <string name="pay">يدفع</string>
+    <string name="please_enter_the_amount_to_proceed">الرجاء إدخال المبلغ للمتابعة</string>
+    <string name="please_tap_your_card">الرجاء الضغط على بطاقتك</string>
+    <string name="enter_pin">أدخل رقم التعريف الشخصي</string>
+    <string name="clear">صافي</string>
+    <string name="confirm">يتأكد</string>
+    <string name="please_enter_pin_to_proceed">الرجاء إدخال PIN للمتابعة</string>
+    <string name="payment_successful">تم الدفع بنجاح</string>
+    <string name="click_to_view_receipt">انقر لعرض الإيصال</string>
+    <string name="send_digital_receipt">إرسال إيصال رقمي</string>
+    <string name="enter_whatsapp_number">أدخل رقم Whatsapp</string>
+    <string name="enter_your_email_id">أدخل معرف البريد الإلكتروني الخاص بك</string>
+    <string name="send">إرسال</string>
+    <string name="receipt_sent_successfully_to">تم إرسال الإيصال بنجاح إلى</string>
+    <string name="home">منزل، بيت</string>
+    <string name="and">و</string>
+    <string name="miscellaneuos">متفرقات</string>
+    <string name="salaries">الرواتب</string>
+    <string name="rent">تأجير</string>
+    <string name="enter_customer_name">أدخل اسم العميل</string>
+    <string name="enter_customer_vat_no">أدخل رقم ضريبة القيمة المضافة للعميل</string>
+    <string name="salary_payroll">الراتب PayRoll</string>
+    <string name="maintenance">صيانة</string>
+    <string name="chillar">تشيلار</string>
+    <string name="total_sequence">التسلسل الكلي</string>
+    <string name="total_debit">إجمالي الخصم</string>
+    <string name="total_credit">إجمالي الائتمان</string>
+    <string name="quick_view">نظرة سريعة</string>
+    <string name="average">متوسط</string>
+    <string name="start_date">تاريخ البدء</string>
+    <string name="end_date">تاريخ الانتهاء</string>
+    <string name="enter_otp">أدخل OTP</string>
+    <string name="didnt_receive_otp">لم تستلم OTP؟</string>
+    <string name="resend_otp">إعادة إرسال OTP</string>
+    <string name="about_payrow">حول PayRow</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="support">الدعم</string>
+    <string name="choose_your_service">اختر خدمتك</string>
+    <string name="delivery_boy">فتى التوصيل</string>
+    <string name="staff">العاملين</string>
+    <string name="your_name">اسمك</string>
+    <string name="your_email">بريدك الالكتروني</string>
+    <string name="your_password">كلمة مرورك</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="owner_name">اسم المالك</string>
+    <string name="select_city">اختر مدينة</string>
+    <string name="passport_number">رقم جواز السفر</string>
+    <string name="passport_expiry_date">وقت نفاذ صلاحيه جواز السفر</string>
+    <string name="card_details">معلومات البطاقة</string>
+    <string name="bank_name">اسم البنك</string>
+    <string name="card_number">رقم البطاقة</string>
+    <string name="card_expiry_date">تاريخ انتهاء صلاحية البطاقة</string>
+    <string name="card_holder_name">إسم صاحب البطاقة</string>
+    <string name="cvv_number">رقم CVV</string>
+    <string name="bank_details">التفاصيل المصرفية</string>
+    <string name="bank_branch">فرع بنك</string>
+    <string name="bank_account">حساب البنك</string>
+    <string name="iban_number">رقم الآيبان</string>
+    <string name="vat_number">ظريبه الشراء</string>
+    <string name="address_details">تفاصيل العنوان</string>
+    <string name="capture_location">موقع الالتقاط</string>
+    <string name="website">موقع إلكتروني</string>
+    <string name="str_address">عنوان</string>
+    <string name="smb">الأعمال الصغيرة والمتوسطة</string>
+    <string name="invoice_recall">استدعاء الفاتورة</string>
+    <string name="personal_details">تفاصيل شخصية</string>
+    <string name="license_details">تفاصيل الترخيص</string>
+    <string name="company_name">اسم الشركة</string>
+    <string name="license_number">رقم الرخصة</string>
+    <string name="license_expiry_date">تاريخ انتهاء الترخيص</string>
+    <string name="establishment_card_number">رقم بطاقة المنشأة</string>
+    <string name="staff_payroll">الموظفين PayRoll</string>
+    <string name="staff_name">اسم الموظفين</string>
+    <string name="mobile_no">رقم الهاتف المحمول</string>
+    <string name="joining_date">تاريخ الانضمام</string>
+    <string name="visa_no">رقم الفيزا</string>
+    <string name="salary">مرتب</string>
+    <string name="account_no">رقم حساب</string>
+    <string name="add">يضيف</string>
+    <string name="view_staff_list">عرض قائمة الموظفين</string>
+    <string name="alert">يحذر</string>
+    <string name="are_you_sure_to_delete_this_item">هل أنت متأكد من حذف هذا العنصر؟</string>
+    <string name="choose_items">اختر العناصر</string>
+    <string name="location_captured">تم التقاط الموقع</string>
+    <string name="leave">غادر</string>
+    <string name="employee_relation">علاقة الموظف</string>
+    <string name="employee_certificate">شهادة موظف</string>
+    <string name="salary_certificate">شهادة الراتب</string>
+    <string name="terms_and_conditions_of_economic_department">تطبق شروط وأحكام الدائرة الاقتصادية</string>
+    <string name="message">رسالة</string>
+    <string-array name="status">
+        <item>حدد الحالة</item>
+        <item>فتح</item>
+        <item>يغلق</item>
+    </string-array>
+    <string name="select_employee">حدد الموظف</string>
+    <string name="apply">تطبيق</string>
+    <string name="date">تاريخ</string>
+    <string name="tap_to_pay">انقر للدفع</string>
+    <string name="total_vat">إجمالي ضريبة القيمة المضافة</string>
+    <string name="proceed">تقدم</string>
+    <string name="payrow_co_founder">شريك مؤسس في PayRow</string>
+    <string name="vision">رؤية</string>
+    <string name="about_us">تقدم PayRow حلاً</string>
+    <string name="payrow_offers_a_solution">PayRow Offers a Solution</string>
+    <string name="support_services">Support Services</string>
+    <string name="time">Time</string>
+    <string name="selected_items">Selected Items</string>
+    <string name="vat">VAT:</string>
+    <string name="total_amount">TOTAL AMOUNT</string>
+    <string name="thank_you">Thank You</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="employee_id">Employee Id</string>
+    <string name="position">Position</string>
+    <string name="work_location">Work Location</string>
+    <string name="go_green_with_payrow_services">Go Green with PayRow Services</string>
+    <string name="head_office_address">Head Office Address</string>
+    <string name="payrow_media_channel">PayRow Media Channel</string>
+    <string name="merchant_id_number">Merchant Id Number</string>
+    <string name="joining_date_colon">Joining Date:</string>
+    <string name="company_certificate">Company Certificate</string>
+    <string name="strategic_partner">Strategic Partner</string>
+    <string name="enter_your_email_address">Enter Your Email Address</string>
+    <string name="annual_leave">Annual Leave</string>
+    <string name="sick_leave">Sick Leave</string>
+    <string name="earned_leave">Earned Leave</string>
+    <string name="no_of_days">No. of Days</string>
+    <string name="balance_leaves">Balance Leaves</string>
+    <string name="profit_and_loss_report">Profit &amp; Loss Report</string>
+    <string name="you_are_about_to_make_a_payment">You are about to make a payment</string>
+    <string name="countries">&#8226;UAE\n&#8226;KSA\n&#8226;Oman\n&#8226;Singapore\n&#8226;Jordan\n&#8226;India\n&#8226;Pakisthan\n&#8226;Congo\n&#8226;Guinea</string>
+</resources>

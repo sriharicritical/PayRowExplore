@@ -1,0 +1,23 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Share folder under device root directory. The base folder is new File("/") -->
+    <root-path name="root" path="" />
+
+    <!-- &lt;!&ndash; Share folder under internal cache folder. The base folder is context.getCacheDir() &ndash;&gt;-->
+    <cache-path name="internal_cache" path="/" />
+
+    <external-path name="external_files" path="."/>
+    <!--  &lt;!&ndash; Share folder under internal file folder. The base folder is context.getFilesDir() &ndash;&gt;
+      <files-path name="internal_files" path="" />
+
+      &lt;!&ndash; Share folder under internal cache folder. The base folder is context.getCacheDir() &ndash;&gt;
+      <cache-path name="internal_cache" path="" />
+
+      &lt;!&ndash; Share folder under public external storage folder.The base folder is Environment.getExternalStorageDirectory()&ndash;&gt;
+      <external-path name="external" path="Android/data/com.dev2qa.example/cache/" />
+
+      &lt;!&ndash; Share folder under app specific external file folder.The base folder is context.getExternalFilesDirs()&ndash;&gt;
+      <external-files-path name="external_files" path="" />
+
+      &lt;!&ndash; Share folder under app specific external cache folder.The base folder is context.getExternalCacheDirs()&ndash;&gt;
+      <external-cache-path name="external_cache" path="" />-->
+</paths>

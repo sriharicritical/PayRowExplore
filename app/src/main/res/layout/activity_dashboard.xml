@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout" />
+
+    <ImageView
+        android:id="@+id/ivWatermarkTop"
+        android:layout_width="36dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="7.5dp"
+        android:layout_marginEnd="35dp"
+        android:src="@drawable/side_menu"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivUaeImage"
+        android:layout_width="150dp"
+        android:layout_height="48.53dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/payrow_icon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clDashBoard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/userRole"
+            android:layout_width="214dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Select Payment Mode"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnSunmiPay"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="Sunmi Pay"
+            android:textAlignment="viewStart"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userRole" />
+
+
+        <Button
+            android:id="@+id/btnNewPayment"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="Tap to Pay"
+            android:textAlignment="viewStart"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSunmiPay" />
+
+        <Button
+            android:id="@+id/btnCashInvoice"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="@string/cash_invoice"
+            android:textAlignment="viewStart"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnNewPayment" />
+
+        <Button
+            android:id="@+id/btnQRCode"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="Pay By QR Code"
+            android:textAlignment="viewStart"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnPaymentLink" />
+
+        <Button
+            android:id="@+id/btnPaymentLink"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="@string/payment_by_link"
+            android:textAlignment="viewStart"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnCashInvoice" />
+
+        <Button
+            android:id="@+id/btnExpenses"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="@string/expenses"
+            android:textAlignment="viewStart"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnQRCode" />
+
+        <Button
+            android:id="@+id/btnSalaryPayRoll"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="Salary PayRoll"
+            android:textAlignment="viewStart"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnExpenses" />
+
+        <Button
+            android:id="@+id/btnPayBySms"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="@string/pay_by_sms"
+            android:textAlignment="viewStart"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSalaryPayRoll" />
+
+
+        <Button
+            android:id="@+id/btnPaymentHistory"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="@string/payment_history"
+            android:textAlignment="viewStart"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnPayBySms" />
+
+        <Button
+            android:id="@+id/btnVatReport"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="VAT Report"
+            android:textAlignment="viewStart"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnPaymentHistory" />
+
+        <Button
+            android:id="@+id/btnInvoiceRecall"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="@string/invoice_recall"
+            android:textAlignment="viewStart"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnVatReport" />
+
+        <Button
+            android:id="@+id/btnAdmin"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="@string/admin"
+            android:textAlignment="viewStart"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnInvoiceRecall" />
+
+        <Button
+            android:id="@+id/btnEmployeeRelation"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="@string/employee_relation"
+            android:textAlignment="viewStart"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnAdmin" />
+
+        <Button
+            android:id="@+id/btnContactPayRow"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="@string/contact_payrow"
+            android:textAlignment="viewStart"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnEmployeeRelation" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:fontFamily="@font/roboto_medium"
+            android:padding="10dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="Logout"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnContactPayRow" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clMasterVisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/clFooter"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:id="@+id/ivMasterCard"
+            android:layout_width="72.15dp"
+            android:layout_height="42dp"
+            android:src="@drawable/ic_fab_gray_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivVisa"
+            android:layout_width="52.59dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="10.85dp"
+            android:src="@drawable/ic_visa_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/ivMasterCard"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivEDirham"
+            android:layout_width="51.62dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="20.41dp"
+            android:src="@drawable/ic_master_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/ivVisa"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/payrow_footer"
+            android:textAlignment="center"
+            android:textColor="@color/color_gray"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

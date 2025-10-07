@@ -1,0 +1,233 @@
+<resources>
+    <string name="app_name">PayRow Mobile</string>
+    <string name="arabic">العربية</string>
+    <string name="urdu">اردو</string>
+    <string name="hindi">हिंदी</string>
+    <string name="bengali">বাংলা</string>
+    <string name="malayalam">മലയാളം</string>
+    <string name="telugu">తెలుగు</string>
+    <string name="chinese">中国人</string>
+    <string name="french">Français</string>
+
+    <string name="terms_and_conditions_short_text">Application des conditions générales
+Ces conditions générales (conditions générales et
+Conditions) font partie intégrante de laccord concernant la fourniture du service au commerçant par le fournisseur.
+Les conditions générales sappliquent sauf si le
+le commerçant et le fournisseur en ont convenu autrement par écrit.
+L accord entrera en vigueur lorsque les parties auront
+signé l accord ou lorsque le fournisseur a approuvé le
+formulaire d accord soumis par le commerçant pour le service</string>
+
+    <string name="about_us_text">PayRow est un acteur B2B Fintech dédié au commerce de détail
+        et le secteur de la microfinance utilisant le modèle commercial de la plate-forme en tant que service.
+        La société a été créée en 2021 dans les vétérans du secteur des paiements
+        PayRow ayant une expérience inspirante dans la mesure du marché.</string>
+    <string name="text_ultimate_fintech_partner">"Ultimate Fintech partner"</string>
+    <string name="text_services">
+         1. Commerce de détail PME – Paiement mPos, SoftPos\n
+2. Delivery Boy - Paiement mobile SoftPos\n
+3. Application de compte de paiement secondaire d entreprise\n
+4. Facture numérique
+    </string>
+    <string name="text_support_services">
+         1. Règlement de paiement\n
+2. Tableau de bord\n
+3. Rapport de taxe / TVA\n
+4. Récapitulatif dachat\n
+5. Rapport d inventaire\n
+6. détails de la transaction\n
+7. Historique des points de fidélité\n
+8. Bénéfice &amp; Rapport perdu\n
+        9. Rapport d évaluation d entreprise</string>
+
+    <string name="button_width">225dp</string>
+    <string-array name="cities">
+        <item>Sélectionnez une ville</item>
+        <item>Dubai</item>
+        <item>Abu Dhabi</item>
+        <item>Sharjah</item>
+        <item>Ajman</item>
+        <item>Umm AlQuwain</item>
+        <item>Ras AlKhaimah</item>
+        <item>Fujairah</item>
+    </string-array>
+
+    <string-array name="complaints">
+        <item>Sélectionnez le type de plainte</item>
+        <item>Le paiement ne fonctionne pas</item>
+        <item>L application est trop lente</item>
+        <item>Besoin d aide</item>
+        <item>L application plante</item>
+
+    </string-array>
+
+    <string name="address"># 808, Tours d affaires de Burjuman\n
+
+Route Sheikh Khalifa Bin Zayed
+, Dubai, Émirats arabes unis
+\n
+
+Ghanim Eid Bin Wogayeh\n
+
++971508759759\n
+
+Ghanim@criticalriver.com</string>
+
+    <string name="customer_copy">Copie du client</string>
+    <string name="i_agree_to_terms_and_conditions">By signing up I agree to terms and conditions and Privacy policy</string>
+    <string name="terms_and_conditions">Termes et conditions</string>
+    <string name="congratulations_on_successful_registration">Toutes nos félicitations! Vous avez été enregistré avec succès auprès de PayRow.</string>
+    <string name="no_app_available">Aucune application disponible pour afficher le PDF</string>
+    <string name="error_fetching_doc">Erreur lors de la récupération du document</string>
+    <string name="payrow_footer">&#169;2021 PayRow Company. Tous les droits sont réservés</string>
+    <string name="we_have_sent_you_access_code">Nous vous avons envoyé un code daccès par SMS pour la vérification du numéro de mobile</string>
+    <string name="choose_your_favourite_language">Choisissez votre langue préférée</string>
+    <string name="please_select_a_language">Veuillez sélectionner une langue pour continuer</string>
+    <string name="password">Mot de passe</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="forgot_password">Mot de passe oublié</string>
+    <string name="verify_your_identity">Vérifiez Votre Identité</string>
+    <string name="fingerprint_authentication">Authentification dempreintes digitales</string>
+    <string name="please_place_your_finger">Veuillez placer votre doigt sur le capteur dempreintes digitales pour vous authentifier</string>
+    <string name="touch_the_fingerprint_sensor">Touchez le capteur dempreintes digitales</string>
+    <string name="new_payment">Nouveau paiement</string>
+    <string name="cash_invoice">Facture en espèces</string>
+    <string name="expenses">Dépenses</string>
+    <string name="payment_history">historique de paiement</string>
+    <string name="admin">Administratrice</string>
+    <string name="contact_payrow">Contactez PayRow</string>
+    <string name="you_are_about_to_make_a_payment_to">Vous êtes sur le point deffectuer un paiement à</string>
+    <string name="invoice_number">Numéro de facture</string>
+    <string name="add_item">Ajouter un item</string>
+    <string name="pay">Payer</string>
+    <string name="please_enter_the_amount_to_proceed">Veuillez saisir le montant pour continuer</string>
+    <string name="please_tap_your_card">Veuillez appuyer sur votre carte</string>
+    <string name="enter_pin">Entrez le code PIN</string>
+    <string name="clear">Dégager</string>
+    <string name="confirm">Confirmer</string>
+    <string name="please_enter_pin_to_proceed">Veuillez saisir le code PIN pour continuer</string>
+    <string name="payment_successful">Paiement réussi</string>
+    <string name="click_to_view_receipt">Cliquez pour voir le reçu</string>
+    <string name="send_digital_receipt">Envoyer un reçu numérique</string>
+    <string name="enter_whatsapp_number">Entrez le numéro Whatsapp</string>
+    <string name="enter_your_email_id">Entrez votre adresse e-mail</string>
+    <string name="send">Envoyer</string>
+    <string name="receipt_sent_successfully_to">Reçu envoyé avec succès à</string>
+    <string name="home">Domicile</string>
+    <string name="and">et</string>
+    <string name="miscellaneuos">Divers</string>
+    <string name="salaries">Les salaires</string>
+    <string name="rent">Location</string>
+    <string name="enter_customer_name">Entrez le nom du client</string>
+    <string name="enter_customer_vat_no">Entrez le numéro de TVA du client</string>
+    <string name="salary_payroll">Salaire PayRoll</string>
+    <string name="maintenance">Maintenance</string>
+    <string name="chillar">Chillar</string>
+    <string name="total_sequence">Séquence totale</string>
+    <string name="total_debit">Débit total</string>
+    <string name="total_credit">Crédit total</string>
+    <string name="quick_view">Aperçu rapide</string>
+    <string name="average">Moyenne</string>
+    <string name="start_date">Date de début</string>
+    <string name="end_date">Date de fin</string>
+    <string name="enter_otp">Entrez OTP</string>
+    <string name="didnt_receive_otp">Vous navez pas reçu l OTP?</string>
+    <string name="resend_otp">Renvoyer OTP</string>
+    <string name="about_payrow">À propos de PayRow</string>
+    <string name="contact_us">Nous contacter</string>
+    <string name="support">Support</string>
+    <string name="choose_your_service">Choisissez votre service</string>
+    <string name="delivery_boy">Livreur</string>
+    <string name="staff">Personnelle</string>
+    <string name="your_name">votre nom</string>
+    <string name="your_email">Votre e-mail</string>
+    <string name="your_password">Votre mot de passe</string>
+    <string name="confirm_password">Confirmez le mot de passe</string>
+    <string name="owner_name">Le nom du propriétaire</string>
+    <string name="select_city">Sélectionnez une ville</string>
+    <string name="passport_number">Numéro de passeport</string>
+    <string name="passport_expiry_date">date dexpiration du passeport</string>
+    <string name="card_details">Détails de la carte</string>
+    <string name="bank_name">Nom de banque</string>
+    <string name="card_number">Numéro de carte</string>
+    <string name="card_expiry_date">date dexpiration de la carte</string>
+    <string name="card_holder_name">Nom du titulaire</string>
+    <string name="cvv_number">Numéro CVV</string>
+    <string name="bank_details">Coordonnées bancaires</string>
+    <string name="bank_branch">Succursale bancaire</string>
+    <string name="bank_account">Compte bancaire</string>
+    <string name="iban_number">Numéro IBAN</string>
+    <string name="vat_number">Numéro de TVA</string>
+    <string name="address_details">Détails de ladresse</string>
+    <string name="capture_location">Lieu de capture</string>
+    <string name="website">Site Internet</string>
+    <string name="str_address">Adresse</string>
+    <string name="smb">PME</string>
+    <string name="invoice_recall">Rappel de facture</string>
+    <string name="personal_details">Détails personnels</string>
+    <string name="license_details">Détails de la licence</string>
+    <string name="company_name">Nom de la compagnie</string>
+    <string name="license_number">Numéro de licence</string>
+    <string name="license_expiry_date">Date dexpiration de la licence</string>
+    <string name="establishment_card_number">Numéro de carte détablissement</string>
+    <string name="staff_payroll">Payroll du personnel</string>
+    <string name="staff_name">Nom du personnel</string>
+    <string name="mobile_no">Numéro de portable</string>
+    <string name="joining_date">Date dinscription</string>
+    <string name="visa_no">Numéro de visa</string>
+    <string name="salary">Un salaire</string>
+    <string name="account_no">Numéro de compte</string>
+    <string name="add">Ajouter</string>
+    <string name="view_staff_list">Voir la liste du personnel</string>
+    <string name="alert">Alerte</string>
+    <string name="are_you_sure_to_delete_this_item">Êtes-vous sûr de vouloir supprimer cet élément?</string>
+    <string name="choose_items">Choisissez des articles</string>
+    <string name="location_captured">Lieu capturé</string>
+    <string name="leave">Quitter</string>
+    <string name="employee_relation">Relation avec les employés</string>
+    <string name="employee_certificate">Certificat demployé</string>
+    <string name="salary_certificate">Attestation de salaire</string>
+    <string name="terms_and_conditions_of_economic_department">Les conditions générales du département économique sont appliquées.</string>
+    <string name="message">Un message</string>
+    <string-array name="status">
+        <item>Sélectionnez le statut</item>
+        <item>Ouverte</item>
+        <item>Fermer</item>
+    </string-array>
+    <string name="select_employee">Sélectionnez un employé</string>
+    <string name="apply">Appliquer</string>
+    <string name="date">Date</string>
+    <string name="tap_to_pay">Appuyez pour payer</string>
+    <string name="total_vat">TVA totale</string>
+    <string name="proceed">Procéder</string>
+    <string name="payrow_co_founder">Co-fondateur de PayRow</string>
+    <string name="vision">Vision</string>
+    <string name="about_us">About US</string>
+    <string name="payrow_offers_a_solution">PayRow Offers a Solution</string>
+    <string name="support_services">Support Services</string>
+    <string name="time">Time</string>
+    <string name="selected_items">Selected Items</string>
+    <string name="vat">VAT:</string>
+    <string name="total_amount">TOTAL AMOUNT</string>
+    <string name="thank_you">Thank You</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="employee_id">Employee Id</string>
+    <string name="position">Position</string>
+    <string name="work_location">Work Location</string>
+    <string name="go_green_with_payrow_services">Go Green with PayRow Services</string>
+    <string name="head_office_address">Head Office Address</string>
+    <string name="payrow_media_channel">PayRow Media Channel</string>
+    <string name="merchant_id_number">Merchant Id Number</string>
+    <string name="joining_date_colon">Joining Date:</string>
+    <string name="company_certificate">Company Certificate</string>
+    <string name="strategic_partner">Strategic Partner</string>
+    <string name="enter_your_email_address">Enter Your Email Address</string>
+    <string name="annual_leave">Annual Leave</string>
+    <string name="sick_leave">Sick Leave</string>
+    <string name="earned_leave">Earned Leave</string>
+    <string name="no_of_days">No. of Days</string>
+    <string name="balance_leaves">Balance Leaves</string>
+    <string name="profit_and_loss_report">Profit &amp; Loss Report</string>
+    <string name="you_are_about_to_make_a_payment">You are about to make a payment</string>
+    <string name="countries">&#8226;UAE\n&#8226;KSA\n&#8226;Oman\n&#8226;Singapore\n&#8226;Jordan\n&#8226;India\n&#8226;Pakisthan\n&#8226;Congo\n&#8226;Guinea</string>
+</resources>

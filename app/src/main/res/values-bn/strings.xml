@@ -1,0 +1,232 @@
+<resources>
+    <string name="app_name">PayRow Mobile</string>
+    <string name="arabic">العربية</string>
+    <string name="urdu">اردو</string>
+    <string name="hindi">हिंदी</string>
+    <string name="bengali">বাংলা</string>
+    <string name="malayalam">മലയാളം</string>
+    <string name="telugu">తెలుగు</string>
+    <string name="chinese">中国人</string>
+    <string name="french">Français</string>
+
+    <string name="terms_and_conditions_short_text">সাধারণ শর্তাদি এবং শর্তাদি প্রয়োগ
+এই সাধারণ শর্তাবলী (সাধারণ শর্তাদি এবং
+শর্তাদি) সরবরাহকারী দ্বারা বণিকের কাছে পরিষেবা সরবরাহ সম্পর্কিত চুক্তির একটি অবিচ্ছেদ্য অঙ্গ গঠন করে।
+সাধারণ শর্তাদি এবং শর্তাদি প্রয়োগ করা হবে যদি না হয়
+বণিক এবং সরবরাহকারী অন্যথায় লিখিতভাবে সম্মত হয়েছেন।
+দলগুলি থাকলে চুক্তি কার্যকর হবে
+চুক্তি স্বাক্ষরিত বা সরবরাহকারী অনুমোদিত হয়েছে যখন
+পরিষেবার জন্য বণিক দ্বারা চুক্তি ফর্ম জমা দেওয়া</string>
+
+    <string name="about_us_text">PayRow is a B2B Fintech player addressing retail
+        and microfinance industry using the business model of platform-as-a-service.
+        The company has been established in the year 2021 In payment industry veterans
+        PayRow having an inspiring experience to extent in market.</string>
+    <string name="text_ultimate_fintech_partner">"চূড়ান্ত ফিনটেক অংশীদার"</string>
+    <string name="text_services">
+         1. এসএমবি খুচরা –
+এমপোস, সফটপোস প্রদান\n
+2. ডেলিভারি বয় - সফটপোস মোবাইল পেমেন্ট\n
+3. এন্টারপ্রাইজ সাব পেমেন্ট অ্যাকাউন্ট অ্যাপ্লিকেশন\n
+4. ডিজিটাল চালান
+    </string>
+    <string name="text_support_services">
+         1. অর্থ নিষ্পত্তি\n
+2. ড্যাশ বোর্ড\n
+3. কর / ভ্যাট রিপোর্ট\n
+4. ক্রয়ের সংক্ষিপ্তসার\n
+5. পরিসংখ্যা প্রতিবেদন\n
+6. লেনদেনের বিবরণ\n
+7. আনুগত্য পয়েন্ট ইতিহাস\n
+8. লাভ &amp; হারানো রিপোর্ট\n
+        9. ব্যবসায় মূল্যায়ন প্রতিবেদন</string>
+
+    <string name="button_width">225dp</string>
+    <string-array name="cities">
+        <item>শহর নির্বাচন করুন</item>
+        <item>Dubai</item>
+        <item>Abu Dhabi</item>
+        <item>Sharjah</item>
+        <item>Ajman</item>
+        <item>Umm AlQuwain</item>
+        <item>Ras AlKhaimah</item>
+        <item>Fujairah</item>
+    </string-array>
+
+    <string-array name="complaints">
+        <item>Select Complaint Type</item>
+        <item>Payment not working</item>
+        <item>App is too slow</item>
+        <item>Need help</item>
+        <item>App is crashing</item>
+
+    </string-array>
+
+    <string name="address"># 808, Burjuman Business Towers\n
+
+Sheikh Khalifa Bin Zayed Road, Dubai, UAE\n
+
+Ghanim Eid Bin Wogayeh\n
+
++971508759759\n
+
+Ghanim@criticalriver.com</string>
+
+    <string name="customer_copy">গ্রাহক কপি</string>
+    <string name="i_agree_to_terms_and_conditions">সাইন আপ করে আমি শর্তাবলী &amp; সম্মতিতে সম্মত গোপনীয়তা নীতি</string>
+    <string name="terms_and_conditions">শর্তাদি &amp; শর্তসমূহ</string>
+    <string name="congratulations_on_successful_registration">অভিনন্দন! আপনি পে-রোতে সাফল্যের সাথে নিবন্ধিত হয়েছেন।</string>
+    <string name="no_app_available">পিডিএফ দেখার জন্য কোনও অ্যাপ্লিকেশন উপলব্ধ নেই</string>
+    <string name="error_fetching_doc">দস্তাবেজ আনতে ত্রুটি</string>
+    <string name="payrow_footer">&#169;2021 পে-রো সংস্থা সমস্ত অধিকার সংরক্ষিত</string>
+    <string name="we_have_sent_you_access_code">মোবাইল নম্বর যাচাইয়ের জন্য আমরা আপনাকে এসএমএসের মাধ্যমে অ্যাক্সেস কোড প্রেরণ করেছি</string>
+    <string name="choose_your_favourite_language">আপনার পছন্দসই ভাষা চয়ন করুন</string>
+    <string name="please_select_a_language">এগিয়ে যেতে একটি ভাষা নির্বাচন করুন</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="create_account">হিসাব তৈরি কর</string>
+    <string name="forgot_password">পাসওয়ার্ড ভুলে গেছেন</string>
+    <string name="verify_your_identity">তোমার পরিচিতি নিশ্চিত কর</string>
+    <string name="fingerprint_authentication">ফিঙ্গারপ্রিন্ট প্রমাণীকরণ</string>
+    <string name="please_place_your_finger">প্রমাণীকরণের জন্য দয়া করে আপনার আঙুলটি ফিঙ্গারপ্রিন্ট সেন্সরে রেখে দিন</string>
+    <string name="touch_the_fingerprint_sensor">ফিঙ্গারপ্রিন্ট সেন্সরটি স্পর্শ করুন</string>
+    <string name="new_payment">নতুন পেমেন্ট</string>
+    <string name="cash_invoice">নগদ চালান</string>
+    <string name="expenses">ব্যয়</string>
+    <string name="payment_history">অর্থ প্রদান ইতিহাস</string>
+    <string name="admin">অ্যাডমিন</string>
+    <string name="contact_payrow">পে-রো যোগাযোগ করুন</string>
+    <string name="you_are_about_to_make_a_payment_to">আপনি প্রায় অর্থ প্রদান করতে চলেছেন</string>
+    <string name="invoice_number">চালান নম্বর</string>
+    <string name="add_item">আইটেম যোগ করুন</string>
+    <string name="pay">প্রদান</string>
+    <string name="please_enter_the_amount_to_proceed">এগিয়ে যেতে পরিমাণ প্রবেশ করুন</string>
+    <string name="please_tap_your_card">দয়া করে আপনার কার্ডটি আলতো চাপুন</string>
+    <string name="enter_pin">পিন প্রবেশ করান</string>
+    <string name="clear">মুছে ফেলুন</string>
+    <string name="confirm">কনফার্ম</string>
+    <string name="please_enter_pin_to_proceed">এগিয়ে যেতে পিন প্রবেশ করুন</string>
+    <string name="payment_successful">অর্থ প্রদান সফল</string>
+    <string name="click_to_view_receipt">রসিদ দেখতে ক্লিক করুন</string>
+    <string name="send_digital_receipt">ডিজিটাল রসিদ প্রেরণ করুন</string>
+    <string name="enter_whatsapp_number">হোয়াটসঅ্যাপ নম্বর প্রবেশ করান</string>
+    <string name="enter_your_email_id">আপনার ইমেল আইডি লিখুন</string>
+    <string name="send">প্রেরণ</string>
+    <string name="receipt_sent_successfully_to">রসিদ সফলভাবে প্রেরণ করা হয়েছে</string>
+    <string name="home">বাড়ি</string>
+    <string name="and">এবং</string>
+    <string name="miscellaneuos">বিবিধ</string>
+    <string name="salaries">বেতন</string>
+    <string name="rent">ভাড়া</string>
+    <string name="enter_customer_name">গ্রাহকের নাম লিখুন</string>
+    <string name="enter_customer_vat_no">গ্রাহক ভ্যাট নম্বর প্রবেশ করুন</string>
+    <string name="salary_payroll">বেতন পে-রোল</string>
+    <string name="maintenance">রক্ষণাবেক্ষণ</string>
+    <string name="chillar">চিল্লার</string>
+    <string name="total_sequence">মোট সিকোয়েন্স</string>
+    <string name="total_debit">মোট ডেবিট</string>
+    <string name="total_credit">মোট জমা</string>
+    <string name="quick_view">তারাতারি দেখা</string>
+    <string name="average">গড়</string>
+    <string name="start_date">শুরুর তারিখ</string>
+    <string name="end_date">শেষ তারিখ</string>
+    <string name="enter_otp">ওটিপি প্রবেশ করান</string>
+    <string name="didnt_receive_otp">ওটিপি পাইনি?</string>
+    <string name="resend_otp">ওটিপি পুনরায় পাঠান</string>
+    <string name="about_payrow">পে-রো সম্পর্কে</string>
+    <string name="contact_us">যোগাযোগ করুন</string>
+    <string name="support">সমর্থন</string>
+    <string name="choose_your_service">আপনার পরিষেবা চয়ন করুন</string>
+    <string name="delivery_boy">ডেলিভারি বয়</string>
+    <string name="staff">কর্মী</string>
+    <string name="your_name">তোমার নাম</string>
+    <string name="your_email">তোমার ইমেইল</string>
+    <string name="your_password">আপনার পাসওয়ার্ড</string>
+    <string name="confirm_password">পাসওয়ার্ড নিশ্চিত করুন</string>
+    <string name="owner_name">মালিকের নাম</string>
+    <string name="select_city">শহর নির্বাচন করুন</string>
+    <string name="passport_number">পাসপোর্ট নম্বর</string>
+    <string name="passport_expiry_date">পাসপোর্ট মেয়াদ শেষ হওয়ার তারিখ</string>
+    <string name="card_details">কার্ডের বিশদ</string>
+    <string name="bank_name">ব্যাংকের নাম</string>
+    <string name="card_number">কার্ড নম্বর</string>
+    <string name="card_expiry_date">কার্ড মেয়াদ শেষ হওয়ার তারিখ</string>
+    <string name="card_holder_name">কার্ডধারীর নাম</string>
+    <string name="cvv_number">সিভিভি নম্বর</string>
+    <string name="bank_details">ব্যাংক বিবরণ</string>
+    <string name="bank_branch">ব্যাংকের শাখা</string>
+    <string name="bank_account">ব্যাংক হিসাব</string>
+    <string name="iban_number">ইবান সংখ্যা</string>
+    <string name="vat_number">ভ্যাট নম্বর</string>
+    <string name="address_details">বিস্তারিত ঠিকানা</string>
+    <string name="capture_location">অবস্থান ক্যাপচার করুন</string>
+    <string name="website">ওয়েবসাইট</string>
+    <string name="str_address">ঠিকানা</string>
+    <string name="smb">এসএমবি</string>
+    <string name="invoice_recall">চালান পুনর্বিবেচনা</string>
+    <string name="personal_details">ব্যক্তিগত বিবরণ</string>
+    <string name="license_details">লাইসেন্সের বিশদ</string>
+    <string name="company_name">কোমপানির নাম</string>
+    <string name="license_number">লাইসেন্স সংখ্যা</string>
+    <string name="license_expiry_date">লাইসেন্সের হওয়ার তারিখ</string>
+    <string name="establishment_card_number">প্রতিষ্ঠা কার্ড নম্বর</string>
+    <string name="staff_payroll">স্টাফ পেআরল</string>
+    <string name="staff_name">স্টাফ নাম</string>
+    <string name="mobile_no">মোবাইল নম্বর</string>
+    <string name="joining_date">যোগদান তারিখ</string>
+    <string name="visa_no">ভিসা ক্রমিক সংখা</string>
+    <string name="salary">বেতন</string>
+    <string name="account_no">হিসাব নাম্বার</string>
+    <string name="add">অ্যাড</string>
+    <string name="view_staff_list">কর্মীদের তালিকা দেখুন</string>
+    <string name="alert">সতর্কতা</string>
+    <string name="are_you_sure_to_delete_this_item">আপনি কি এই আইটেমটি মুছে ফেলার বিষয়ে নিশ্চিত?</string>
+    <string name="choose_items">আইটেম চয়ন করুন</string>
+    <string name="location_captured">অবস্থান ক্যাপচার করা হয়েছে</string>
+    <string name="leave">ছেড়ে দিন</string>
+    <string name="employee_relation">কর্মচারীর সম্পর্ক</string>
+    <string name="employee_certificate">কর্মচারী শংসাপত্র</string>
+    <string name="salary_certificate">বেতন সার্টিফিকেট</string>
+    <string name="terms_and_conditions_of_economic_department">অর্থনৈতিক বিভাগের শর্তাবলী প্রয়োগ করা হয়.</string>
+    <string name="message">বার্তা</string>
+    <string-array name="status">
+        <item>স্থিতি নির্বাচন করুন</item>
+        <item>খোলা</item>
+        <item>বন্ধ</item>
+    </string-array>
+    <string name="select_employee">কর্মচারী নির্বাচন করুন</string>
+    <string name="apply">প্রয়োগ করুন</string>
+    <string name="date">তারিখ</string>
+    <string name="tap_to_pay">অর্থ প্রদান করতে আলতো চাপুন</string>
+    <string name="total_vat">মোট ভ্যাট</string>
+    <string name="proceed">এগিয়ে যান</string>
+    <string name="payrow_co_founder">পে-র সহ-প্রতিষ্ঠাতা</string>
+    <string name="vision">দৃষ্টি</string>
+    <string name="about_us">আমাদের সম্পর্কে</string>
+    <string name="payrow_offers_a_solution">PayRow Offers a Solution</string>
+    <string name="support_services">সহায়তা সেবা</string>
+    <string name="time">Time</string>
+    <string name="selected_items">Selected Items</string>
+    <string name="vat">VAT:</string>
+    <string name="total_amount">TOTAL AMOUNT</string>
+    <string name="thank_you">Thank You</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="employee_id">Employee Id</string>
+    <string name="position">Position</string>
+    <string name="work_location">Work Location</string>
+    <string name="go_green_with_payrow_services">Go Green with PayRow Services</string>
+    <string name="head_office_address">Head Office Address</string>
+    <string name="payrow_media_channel">PayRow Media Channel</string>
+    <string name="merchant_id_number">Merchant Id Number</string>
+    <string name="joining_date_colon">Joining Date:</string>
+    <string name="company_certificate">Company Certificate</string>
+    <string name="strategic_partner">Strategic Partner</string>
+    <string name="enter_your_email_address">Enter Your Email Address</string>
+    <string name="annual_leave">Annual Leave</string>
+    <string name="sick_leave">Sick Leave</string>
+    <string name="earned_leave">Earned Leave</string>
+    <string name="no_of_days">No. of Days</string>
+    <string name="balance_leaves">Balance Leaves</string>
+    <string name="profit_and_loss_report">Profit &amp; Loss Report</string>
+    <string name="you_are_about_to_make_a_payment">You are about to make a payment</string>
+    <string name="countries">&#8226;UAE\n&#8226;KSA\n&#8226;Oman\n&#8226;Singapore\n&#8226;Jordan\n&#8226;India\n&#8226;Pakisthan\n&#8226;Congo\n&#8226;Guinea</string>
+</resources>

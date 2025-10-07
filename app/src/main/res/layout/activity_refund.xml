@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout" />
+
+    <ImageView
+        android:id="@+id/ivWatermarkTop"
+        android:layout_width="36dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_icon_watermark"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivWatermarkBelow"
+        android:layout_width="36dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/ic_icon_watermark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/payRowLogo"
+        android:layout_width="150dp"
+        android:layout_height="48.53dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/icon_payrow"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clThankYou"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/layout_round_corner"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payRowLogo">
+
+        <TextView
+            android:id="@+id/tvThankYouForConnectingWithUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="PayRow Refund"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvCanIHelpYou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Refund"
+            android:textColor="@android:color/black"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvThankYouForConnectingWithUs" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/ivHowCanIHelpYou"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_marginTop="-100dp"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clThankYou" />
+
+    <TextView
+        android:id="@+id/tvEnterTransId"
+        android:layout_width="296dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="24.47dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Please enter transaction number"
+        android:textAlignment="center"
+        android:textColor="@color/thick_gray"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payRowLogo" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clTransactionNum"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEnterTransId">
+
+        <TextView
+            android:id="@+id/tvAmountLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingStart="3dp"
+            android:text="Order No"
+            android:textColor="@color/color_text"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etTransactionNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/roboto_medium"
+            android:hint="Enter Order No"
+            android:imeOptions="actionDone"
+            android:includeFontPadding="true"
+            android:inputType="text"
+            android:maxLength="25"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/thick_gray"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/qrOrderImg"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/ic_baseline_qr_code_24"
+            android:clickable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/etTransactionNo"
+            app:layout_constraintBottom_toBottomOf="@id/etTransactionNo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tvSelectReason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/select_reason"
+        android:textAlignment="center"
+        android:textColor="@color/thick_gray"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clTransactionNum" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clReason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSelectReason">
+
+
+        <Button
+            android:id="@+id/btnWrongPro"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="@string/wrong_product"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@color/color_text_80"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnProDamage"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="@string/product_damaged"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@color/color_text_80"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnWrongPro" />
+
+        <Button
+            android:id="@+id/btnProNotNeed"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="@string/product_not_needed"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@color/color_text_80"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnProDamage" />
+
+        <Button
+            android:id="@+id/btnExpireProduct"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:fontFamily="@font/roboto_medium"
+            android:paddingStart="16dp"
+            android:paddingEnd="10.02dp"
+            android:text="@string/wrong_amount"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@color/color_text_80"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnProNotNeed" />
+
+        <Button
+            android:id="@+id/btnSelectReason"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:padding="10dp"
+            android:text="Select Reason"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinnerReasons"
+            android:layout_width="222dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="5dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textSize="13.5sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_round_dark_gray_bg_fill"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="@string/submit"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/clFooter"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/payrow_footer"
+            android:textAlignment="center"
+            android:textColor="@color/color_gray"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

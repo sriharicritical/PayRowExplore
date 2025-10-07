@@ -1,0 +1,235 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+//apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+//apply plugin: 'realm-android'
+apply plugin: 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
+
+apply plugin: "ru.cleverpumpkin.proguard-dictionaries-generator"
+
+apply plugin: 'kotlin-parcelize'
+
+proguardDictionaries {
+    dictionaryNames = [
+            "build/class-dictionary",
+            "build/package-dictionary",
+            "build/obfuscation-dictionary"
+    ]
+}
+
+android {
+    compileSdkVersion 34
+    defaultConfig {
+        applicationId "com.payment.payrowapp"
+        minSdk 30
+        targetSdkVersion 34
+        versionCode 6
+        versionName "1.6"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            debuggable true
+            zipAlignEnabled true
+            minifyEnabled true
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/MSFTSIG.SF'
+        exclude 'META_INF/ECLIPSE_.SF'
+        exclude("META-INF/*.kotlin_module")
+        exclude 'org/bouncycastle/x509/CertPathReviewerMessages_de.properties'
+        exclude 'org/bouncycastle/x509/CertPathReviewerMessages.properties'
+    }
+    buildFeatures {
+        viewBinding true
+    }
+
+    /* splits {
+         // Configures multiple APKs based on ABI.
+         abi {
+             // Enables building multiple APKs per ABI.
+             enable true
+
+             // By default all ABIs are included, so use reset() and include to specify that we only
+             // want APKs for x86, armeabi-v7a, and mips.
+             reset()
+
+             // Specifies a list of ABIs that Gradle should create APKs for.
+             include "x86", "x86_64", "armeabi-v7a", "arm64-v8a"
+
+             // Specifies that we want to also generate a universal APK that includes all ABIs.
+             universalApk true
+         }
+     }*/
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.gms:play-services-maps:18.0.2'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'com.google.android.material:material:1.5.0-alpha02'
+
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    // implementation 'com.amitshekhar.android:rx2-android-networking:1.0.2'
+//    implementation 'io.reactivex.rxjava2:rxjava:2.2.18'
+    //  implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
+    //gradle for bar chart graph
+    // implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    //patterned TextWatcher
+    implementation 'com.szagurskii:patternedtextwatcher:0.5.0'
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    implementation 'com.intuit.sdp:sdp-android:1.0.5'
+
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0'
+
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.6.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
+    implementation 'com.squareup.okhttp3:okhttp:4.5.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.5.0'
+
+    implementation('com.github.ihsanbal:LoggingInterceptor:3.1.0') {
+        exclude group: 'org.json', module: 'json'
+    }
+
+
+    implementation 'androidx.fragment:fragment:1.3.1'
+    implementation 'androidx.lifecycle:lifecycle-process:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-service:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0@aar'
+
+    kapt 'androidx.lifecycle:lifecycle-compiler:2.3.1'
+
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1"
+
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+
+    api 'io.jsonwebtoken:jjwt-api:0.11.2'
+    // api 'io.jsonwebtoken:jjwt:0.11.2'
+    runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.11.2'
+    runtimeOnly('io.jsonwebtoken:jjwt-orgjson:0.11.2') {
+        exclude group: 'org.json', module: 'json' //provided by Android natively
+    }
+    implementation 'com.auth0.android:jwtdecode:2.0.1'
+//EventBus
+    implementation 'org.greenrobot:eventbus:3.3.1'
+//QrCode Scanner
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+
+    implementation 'com.github.PayRowPayment:PayRowSDK:1.2.1'
+
+    implementation 'com.github.GoodieBag:Pinview:v1.5'
+
+    implementation "com.airbnb.android:lottie:3.4.0"
+
+    implementation 'io.github.dzmitry-lakisau:month-year-picker-dialog:1.0.0'
+    implementation 'com.scottyab:rootbeer-lib:0.1.0'
+    implementation "androidx.security:security-crypto:1.0.0"
+
+    //sunmi printer sdk
+    // implementation 'com.sunmi:printerlibrary:1.0.18'
+
+    implementation 'androidmads.library.qrgenearator:QRGenearator:1.0.3'
+
+    //sunmipay sdk
+    /* implementation files('libs/PayLib-release-1.4.72-sources.jar')*/
+    implementation files('libs/PayLib-release-1.4.72.aar')
+
+    //stream api
+    implementation 'com.github.heremaps:oksse:0.9.0'
+
+    //firebase
+    implementation 'com.google.firebase:firebase-messaging:23.1.2'
+
+    //barcode or qrcode scanner
+    implementation 'com.google.android.gms:play-services-vision:20.1.3'
+
+    implementation 'org.bouncycastle:bcpkix-jdk15on:1.56'
+
+    // implementation 'org.bouncycastle:bcpkix-jdk15to18:1.77'
+    // implementation 'org.bouncycastle:bcprov-jdk15to18:1.77'
+
+    implementation 'com.github.smart-fun:XmlToJson:1.5.3'
+
+    //tr31 keyblock
+   /* implementation group: 'org.javatuples', name: 'javatuples', version: '1.2'
+    implementation group: 'at.favre.lib', name: 'bytes', version: '1.5.0'*/
+
+//sunmi rki portal
+    implementation files('libs/SunmiRKILib_v1.0.2_release.aar')
+
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+
+    // cloud commerce sdk dependencies
+    // implementation files('libs/cloud-commerce-sdk-mtf-4.5.1.aar')
+   // implementation files('libs/cloudcommerce-sdk-mtf-4.5.1-usb-enable.aar')
+ //   implementation files('libs/cloud-commerce-sdk-mtf-5.0.0.aar')
+    // implementation files('libs/cloud-commerce-sdk-mtf-4.7.0.aar')
+
+    //implementation files('libs/cloud-commerce-sdk-release-5.1.1.aar')
+
+  //  implementation files('libs/cloud-commerce-sdk-release-5.3.0.aar')
+
+    implementation files('libs/cloudcommerce-sdk-mtf-5.3.0.aar')
+
+   // implementation files('libs/cloudcommerce-sdk-mtf-5.1.1-usb-check-disable.aar')
+
+    // RxJava 3
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.8'
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
+    implementation "org.slf4j:slf4j-api:1.7.30"
+    implementation "com.google.android.gms:play-services-safetynet:17.0.0"
+    implementation "com.squareup.okhttp3:okhttp-urlconnection:4.4.0"
+    implementation 'commons-codec:commons-codec:1.11'
+    implementation "com.google.code.gson:gson:2.8.6"
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+    implementation "com.google.android.play:integrity:1.1.0"
+
+    implementation "com.squareup.retrofit2:adapter-rxjava3:2.9.0"
+
+    //sentry for performance and anrs
+    implementation 'io.sentry:sentry-android:8.22.0'
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'com.google.gms.google-services'

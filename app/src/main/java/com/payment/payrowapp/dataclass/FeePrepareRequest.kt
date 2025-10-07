@@ -1,0 +1,40 @@
+package com.payment.payrowapp.dataclass
+
+import com.google.gson.annotations.SerializedName
+
+data class FeePrepareRequest(
+    @SerializedName("orderNumber") val orderNumber: String,
+    @SerializedName("customerAddressLine1") val customerAddressLine1: String,
+    @SerializedName("customerAddressLine2") val customerAddressLine2: String,
+    @SerializedName("language") val language: String,
+    @SerializedName("channel") val channel: String,
+    @SerializedName("governmentServices") val governmentServices: Boolean,
+    @SerializedName("addTransactionFeesOnTop") val addTransactionFeesOnTop: Boolean,
+    @SerializedName("merchantSiteUrl") val merchantSiteUrl: String,
+    @SerializedName("merchantBankTransferReturnUrl") val merchantBankTransferReturnUrl: String,
+    @SerializedName("paymentMethodList") val paymentMethodList: Array<String>,
+    @SerializedName("sessionTimeoutSecs") val sessionTimeoutSecs: String,
+    @SerializedName("customerName") val customerName: String,
+    @SerializedName("paymentMethod") val paymentMethod: String,
+    @SerializedName("orderStatus") val orderStatus: String,
+    @SerializedName("customerEmail") val customerEmail: String,
+    @SerializedName("customerPhone") val customerPhone: String,
+    @SerializedName("customerCity") val customerCity: String,
+    @SerializedName("customerState") val customerState: String,
+    @SerializedName("customerCountry") val customerCountry: String,
+    @SerializedName("customerPostalCode") val customerPostalCode: String,
+    @SerializedName("mainMerchantId") val mainMerchantId: String,
+    @SerializedName("purchaseDetails") val purchaseDetails: ProductDetails,
+    @SerializedName("vatStatus") val vatStatus: Boolean?,
+    @SerializedName("storeManagerId") val storeManagerId: String,
+    @SerializedName("terminalEmail") val terminalEmail: String,
+    @SerializedName("terminalId") val terminalId: String,
+    @SerializedName("terminalPhone") val terminalPhone: String,
+    @SerializedName("distributorId") val distributorId: String,
+    @SerializedName("posId") val posId: String,
+    @SerializedName("storeId") val storeId: String,
+    @SerializedName("posType") val posType: String,
+    @SerializedName("receiptNo") val receiptNo: String?,
+    @SerializedName("trnNo") val trnNo: String?,
+    @SerializedName("payrowInvoiceNo") val payrowInvoiceNo: String?
+)

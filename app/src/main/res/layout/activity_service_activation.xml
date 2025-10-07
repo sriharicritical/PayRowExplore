@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout" />
+
+    <ImageView
+        android:id="@+id/ivWatermarkTop"
+        android:layout_width="36dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_icon_watermark"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivWatermarkBelow"
+        android:layout_width="36dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/ic_icon_watermark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivPayRowLogo"
+        android:layout_width="150dp"
+        android:layout_height="48.53dp"
+        android:layout_marginTop="35dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_payrow"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ImageView
+        android:id="@+id/ivPerson"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPayRowLogo" />
+
+    <TextView
+        android:id="@+id/tvChooseYourCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/contact_payrow"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPerson" />
+
+    <View
+        android:id="@+id/idUnderLine"
+        android:layout_width="135dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/color_green_payrow"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvChooseYourCategory" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clDashBoard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/btnVATCalculator"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="32.47dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:text="@string/vat_calculator"
+            android:textAllCaps="true"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivMultiON"
+            android:layout_width="34dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="58dp"
+            android:src="@drawable/ic_multi_enable_off"
+            android:visibility="visible"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/btnCatalogAmount"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:text="@string/catelog_amount"
+            android:textAllCaps="true"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnVATCalculator" />
+
+        <ImageView
+            android:id="@+id/ivCatalogON"
+            android:layout_width="34dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="58dp"
+            android:src="@drawable/ic_multi_enable_off"
+            android:visibility="visible"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnVATCalculator" />
+
+        <TextView
+            android:id="@+id/btnScanBarCode"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:text="@string/scan_barcode"
+            android:textAllCaps="true"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnCatalogAmount" />
+
+        <ImageView
+            android:id="@+id/ivScanBarCodeON"
+            android:layout_width="34dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="58dp"
+            android:src="@drawable/ic_multi_enable_off"
+            android:visibility="visible"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnCatalogAmount" />
+
+
+        <TextView
+            android:id="@+id/btnPayRowDigFee"
+            android:layout_width="296dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_round_gray_border_thin"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:text="@string/payrow_digital_fee"
+            android:textAllCaps="true"
+            android:textColor="@color/thick_gray"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnScanBarCode" />
+
+        <ImageView
+            android:id="@+id/ivPayRowDigFeeON"
+            android:layout_width="34dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="58dp"
+            android:src="@drawable/ic_multi_enable_off"
+            android:visibility="gone"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnScanBarCode" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- <ImageView
+         android:id="@+id/ivProceed"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_marginTop="90dp"
+         android:src="@drawable/green_arrow"
+         android:visibility="gone"
+         app:layout_constraintHorizontal_bias="0.498"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent" />
+ -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clMasterVisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/clTV"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:id="@+id/ivMasterCard"
+            android:layout_width="72.15dp"
+            android:layout_height="42dp"
+            android:src="@drawable/ic_fab_gray_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivVisa"
+            android:layout_width="52.59dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="10.85dp"
+            android:src="@drawable/ic_visa_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/ivMasterCard"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivEDirham"
+            android:layout_width="51.62dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="20.41dp"
+            android:src="@drawable/ic_master_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/ivVisa"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/clTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:text="@string/payrow_footer"
+        android:textColor="@color/color_text_80"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

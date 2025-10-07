@@ -1,0 +1,232 @@
+<resources>
+    <string name="app_name">పేరో మొబైల్</string>
+    <string name="arabic">العربية</string>
+    <string name="urdu">اردو</string>
+    <string name="hindi">हिंदी</string>
+    <string name="bengali">বাংলা</string>
+    <string name="malayalam">മലയാളം</string>
+    <string name="telugu">తెలుగు</string>
+    <string name="chinese">中国人</string>
+    <string name="french">Français</string>
+
+    <string name="terms_and_conditions_short_text">సాధారణ నిబంధనలు మరియు షరతుల దరఖాస్తు
+ఈ సాధారణ నిబంధనలు మరియు షరతులు (సాధారణ నిబంధనలు మరియు
+షరతులు) సరఫరాదారు ద్వారా వ్యాపారికి సేవను పంపిణీ చేయడానికి సంబంధించిన ఒప్పందంలో అంతర్భాగం.
+సాధారణ నిబంధనలు మరియు షరతులు వర్తించవు
+వ్యాపారి మరియు సరఫరాదారు లేకపోతే వ్రాతపూర్వకంగా అంగీకరించారు.
+పార్టీలు ఉన్నప్పుడు ఒప్పందం అమల్లోకి వస్తుంది
+ఒప్పందంపై సంతకం చేసింది లేదా సరఫరాదారు ఆమోదించినప్పుడు
+సేవ కోసం వ్యాపారి సమర్పించిన ఒప్పంద ఫారం</string>
+
+    <string name="about_us_text">రిటైల్ మరియు బి 2 బి ఫిన్‌టెక్ ప్లేయర్
+        ప్లాట్‌ఫాం-ఎ-సేవ యొక్క వ్యాపార నమూనాను ఉపయోగించి సూక్ష్మ ఆర్థిక పరిశ్రమ.
+        చెల్లింపు పరిశ్రమ అనుభవజ్ఞులలో ఈ సంస్థ 2021 సంవత్సరంలో స్థాపించబడింది
+        పేరో మార్కెట్లో కొంతవరకు ఉత్తేజకరమైన అనుభవాన్ని కలిగి ఉంది.</string>
+    <string name="text_ultimate_fintech_partner">"అల్టిమేట్ ఫిన్‌టెక్ భాగస్వామి"</string>
+    <string name="text_services">
+         1. SMB రిటైల్ – mPos, సాఫ్ట్‌పోస్ చెల్లింపు\n
+2. డెలివరీ బాయ్ - సాఫ్ట్‌పోస్ మొబైల్ చెల్లింపు\n
+3. ఎంటర్ప్రైజ్ సబ్ చెల్లింపు ఖాతా అప్లికేషన్\n
+4. డిజిటల్ ఇన్వాయిస్
+    </string>
+    <string name="text_support_services">
+         1. చెల్లింపు పరిష్కారం\n
+2. డాష్బోర్డ్\n
+3. పన్ను / వ్యాట్ నివేదిక\n
+4. కొనుగోలు సారాంశం\n
+5. ఇన్వెంటరీ రిపోర్ట్\n
+6. లావాదేవీ వివరాలు\n
+7. లాయల్టీ పాయింట్స్ హిస్టరీ\n
+8. లాభం మరియు కోల్పోయిన నివేదిక\n
+        9. వ్యాపార మదింపు నివేదిక</string>
+
+    <string name="button_width">225dp</string>
+    <string-array name="cities">
+        <item>నగరాన్ని ఎంచుకోండి</item>
+        <item>దుబాయ్</item>
+        <item>అబూ ధాబీ</item>
+        <item>షార్జా</item>
+        <item>అజ్మాన్</item>
+        <item>ఉమ్ అల్ క్వాయిన్</item>
+        <item>రాస్ అల్ ఖైమా</item>
+        <item>ఫుజైరా</item>
+    </string-array>
+
+    <string-array name="complaints">
+        <item>ఫిర్యాదు రకాన్ని ఎంచుకోండి</item>
+        <item>చెల్లింపు పనిచేయడం లేదు</item>
+        <item>అనువర్తనం చాలా నెమ్మదిగా ఉంది</item>
+        <item>సహాయం కావాలి</item>
+        <item>అనువర్తనం క్రాష్ అవుతోంది</item>
+
+    </string-array>
+
+    <string name="address"># 808, బుర్జుమాన్ బిజినెస్ టవర్స్\n
+
+షేక్ ఖలీఫా బిన్ జాయెద్ రోడ్, దుబాయ్, యుఎఇ\n
+
+ఘనిమ్ ఈద్ బిన్ వోగయేహ్\n
+
++971508759759\n
+
+Ghanim@criticalriver.com</string>
+
+    <string name="customer_copy">కస్టమర్ కాపీ</string>
+    <string name="i_agree_to_terms_and_conditions">సైన్ అప్ చేయడం ద్వారా <b> నేను </b> నిబంధనలు మరియు షరతులకు అంగీకరిస్తున్నాను &amp; గోప్యతా విధానం</string>
+    <string name="terms_and_conditions">నిబంధనలు &amp; షరతులు</string>
+    <string name="congratulations_on_successful_registration">అభినందనలు! మీరు పేరోతో విజయవంతంగా నమోదు చేయబడ్డారు.</string>
+    <string name="no_app_available">పిడిఎఫ్ చూడటానికి అప్లికేషన్ అందుబాటులో లేదు</string>
+    <string name="error_fetching_doc">పత్రాన్ని పొందడంలో లోపం</string>
+    <string name="payrow_footer">&#169;2021 పేరో కంపెనీ. అన్ని హక్కులూ ప్రత్యేకించుకోవడమైనది</string>
+    <string name="we_have_sent_you_access_code">మొబైల్ నంబర్ ధృవీకరణ కోసం మేము మీకు SMS ద్వారా యాక్సెస్ కోడ్ పంపాము</string>
+    <string name="choose_your_favourite_language">మీకు ఇష్టమైన భాషను ఎంచుకోండి</string>
+    <string name="please_select_a_language">కొనసాగడానికి దయచేసి ఒక భాషను ఎంచుకోండి</string>
+    <string name="password">పాస్వర్డ్</string>
+    <string name="create_account">ఖాతాను సృష్టించండి</string>
+    <string name="forgot_password">పాస్వర్డ్ మర్చిపోయారా</string>
+    <string name="verify_your_identity">మీ గుర్తింపును ధృవీకరించండి</string>
+    <string name="fingerprint_authentication">వేలిముద్ర ప్రామాణీకరణ</string>
+    <string name="please_place_your_finger">ప్రామాణీకరించడానికి దయచేసి మీ వేలిని వేలిముద్ర సెన్సార్‌పై ఉంచండి</string>
+    <string name="touch_the_fingerprint_sensor">వేలిముద్ర సెన్సార్‌ను తాకండి</string>
+    <string name="new_payment">కొత్త చెల్లింపు</string>
+    <string name="cash_invoice">నగదు ఇన్వాయిస్</string>
+    <string name="expenses">ఖర్చులు</string>
+    <string name="payment_history">చెల్లింపు చరిత్ర</string>
+    <string name="admin">అడ్మిన్</string>
+    <string name="contact_payrow">పేరోను సంప్రదించండి</string>
+    <string name="you_are_about_to_make_a_payment_to">మీరు చెల్లింపు చేయబోతున్నారు</string>
+    <string name="invoice_number">ఇన్వాయిస్ సంఖ్యా</string>
+    <string name="add_item">వస్తువు జోడించు</string>
+    <string name="pay">చెల్లించండి</string>
+    <string name="please_enter_the_amount_to_proceed">కొనసాగడానికి దయచేసి మొత్తాన్ని నమోదు చేయండి</string>
+    <string name="please_tap_your_card">దయచేసి మీ కార్డును నొక్కండి</string>
+    <string name="enter_pin">పిన్ నమోదు చేయండి</string>
+    <string name="clear">క్లియర్</string>
+    <string name="confirm">నిర్ధారించండి</string>
+    <string name="please_enter_pin_to_proceed">కొనసాగడానికి దయచేసి పిన్ నమోదు చేయండి</string>
+    <string name="payment_successful">చెల్లింపు విజయవంతమైంది</string>
+    <string name="click_to_view_receipt">రశీదును చూడటానికి క్లిక్ చేయండి</string>
+    <string name="send_digital_receipt">డిజిటల్ రశీదు పంపండి</string>
+    <string name="enter_whatsapp_number">వాట్సాప్ నంబర్‌ను నమోదు చేయండి</string>
+    <string name="enter_your_email_id">మీ ఇమెయిల్ ఐడిని నమోదు చేయండి</string>
+    <string name="send">పంపండి</string>
+    <string name="receipt_sent_successfully_to">రసీదు విజయవంతంగా పంపబడింది</string>
+    <string name="home">హోమ్</string>
+    <string name="and">మరియు</string>
+    <string name="miscellaneuos">ఇతరాలు</string>
+    <string name="salaries">జీతాలు</string>
+    <string name="rent">అద్దె</string>
+    <string name="enter_customer_name">కస్టమర్ పేరును నమోదు చేయండి</string>
+    <string name="enter_customer_vat_no">కస్టమర్ వ్యాట్ సంఖ్యను నమోదు చేయండి</string>
+    <string name="salary_payroll">జీతం పేరోల్</string>
+    <string name="maintenance">నిర్వహణ</string>
+    <string name="chillar">చిల్లర్</string>
+    <string name="total_sequence">మొత్తం క్రమం</string>
+    <string name="total_debit">మొత్తం డెబిట్</string>
+    <string name="total_credit">మొత్తం క్రెడిట్</string>
+    <string name="quick_view">శీఘ్ర వీక్షణ</string>
+    <string name="average">సగటు</string>
+    <string name="start_date">ప్రారంబపు తేది</string>
+    <string name="end_date">చివరి తేది</string>
+    <string name="enter_otp">OTP ని నమోదు చేయండి</string>
+    <string name="didnt_receive_otp">OTP అందుకోలేదు?</string>
+    <string name="resend_otp">OTP ను మళ్ళీ పంపు</string>
+    <string name="about_payrow">పేరో గురించి</string>
+    <string name="contact_us">మమ్మల్ని సంప్రదించండి</string>
+    <string name="support">మద్దతు</string>
+    <string name="choose_your_service">మీ సేవను ఎంచుకోండి</string>
+    <string name="delivery_boy">డెలివరీ బాయ్</string>
+    <string name="staff">సిబ్బంది</string>
+    <string name="your_name">నీ పేరు</string>
+    <string name="your_email">మీ ఇమెయిల్</string>
+    <string name="your_password">మీ పాస్వర్డు</string>
+    <string name="confirm_password">పాస్వర్డ్ను నిర్ధారించండి</string>
+    <string name="owner_name">యజమాని పేరు</string>
+    <string name="select_city">నగరాన్ని ఎంచుకోండి</string>
+    <string name="passport_number">పాస్ పోర్టు సంఖ్య</string>
+    <string name="passport_expiry_date">పాసుపోర్టు ముగియు తేదీ</string>
+    <string name="card_details">కార్డు వివరాలు</string>
+    <string name="bank_name">బ్యాంక్ పేరు</string>
+    <string name="card_number">కార్డు సంఖ్య</string>
+    <string name="card_expiry_date">కార్డ్ గడువు తేదీ</string>
+    <string name="card_holder_name">గుర్తింపు కార్డు కలిగిన వారి పేరు</string>
+    <string name="cvv_number">సివివి నంబర్</string>
+    <string name="bank_details">బ్యాంక్ వివరములు</string>
+    <string name="bank_branch">బ్యాంకు శాఖ</string>
+    <string name="bank_account">బ్యాంకు ఖాతా</string>
+    <string name="iban_number">IBAN సంఖ్య</string>
+    <string name="vat_number">వ్యాట్ సంఖ్య</string>
+    <string name="address_details">చిరునామా వివరాలు</string>
+    <string name="capture_location">క్యాప్చర్ స్థానం</string>
+    <string name="website">వెబ్‌సైట్</string>
+    <string name="str_address">చిరునామా</string>
+    <string name="smb">ఎస్ ఎమ్ బి</string>
+    <string name="invoice_recall">ఇన్వాయిస్ రీకాల్</string>
+    <string name="personal_details">వ్యక్తిగత వివరాలు</string>
+    <string name="license_details">లైసెన్స్ వివరాలు</string>
+    <string name="company_name">కంపెనీ పేరు</string>
+    <string name="license_number">లైసెన్స్ సంఖ్య</string>
+    <string name="license_expiry_date">లైసెన్స్ గడువు తేదీ</string>
+    <string name="establishment_card_number">స్థాపన కార్డు సంఖ్య:</string>
+    <string name="staff_payroll">స్టాఫ్ పేరోల్</string>
+    <string name="staff_name">సిబ్బంది పేరు</string>
+    <string name="mobile_no">మొబైల్ సంఖ్య</string>
+    <string name="joining_date">చేరిన తేది</string>
+    <string name="visa_no">వీసా సంఖ్య</string>
+    <string name="salary">జీతం</string>
+    <string name="account_no">ఖాతా సంఖ్య</string>
+    <string name="add">జోడించు</string>
+    <string name="view_staff_list">సిబ్బంది జాబితాను చూడండి</string>
+    <string name="alert">హెచ్చరిక</string>
+    <string name="are_you_sure_to_delete_this_item">మీరు ఖచ్చితంగా ఈ అంశాన్ని తొలగిస్తారా?</string>
+    <string name="choose_items">అంశాలను ఎంచుకోండి</string>
+    <string name="location_captured">స్థానం సంగ్రహించబడింది</string>
+    <string name="leave">సెలవు</string>
+    <string name="employee_relation">ఉద్యోగుల సంబంధం</string>
+    <string name="employee_certificate">ఉద్యోగి సర్టిఫికేట్</string>
+    <string name="salary_certificate">జీతం సర్టిఫికేట్</string>
+    <string name="terms_and_conditions_of_economic_department">ఆర్థిక శాఖ యొక్క నిబంధనలు మరియు షరతులు వర్తించబడతాయి.</string>
+    <string name="message">సందేశం</string>
+
+    <string-array name="status">
+        <item>స్థితిని ఎంచుకోండి</item>
+        <item>తెరవండి</item>
+        <item>మూసివేయండి</item>
+    </string-array>
+    <string name="select_employee">ఉద్యోగిని ఎంచుకోండి</string>
+    <string name="apply">వర్తించు</string>
+    <string name="date">తేదీ</string>
+    <string name="tap_to_pay">చెల్లించడానికి నొక్కండి</string>
+    <string name="total_vat">మొత్తం వ్యాట్</string>
+    <string name="proceed">కొనసాగండి</string>
+    <string name="payrow_co_founder">పేరో సహ వ్యవస్థాపకుడు</string>
+    <string name="vision">దృష్టి</string>
+    <string name="about_us">About US</string>
+    <string name="payrow_offers_a_solution">PayRow Offers a Solution</string>
+    <string name="support_services">Support Services</string>
+    <string name="time">Time</string>
+    <string name="selected_items">Selected Items</string>
+    <string name="vat">VAT:</string>
+    <string name="total_amount">TOTAL AMOUNT</string>
+    <string name="thank_you">Thank You</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="employee_id">Employee Id</string>
+    <string name="position">Position</string>
+    <string name="work_location">Work Location</string>
+    <string name="go_green_with_payrow_services">Go Green with PayRow Services</string>
+    <string name="head_office_address">Head Office Address</string>
+    <string name="payrow_media_channel">PayRow Media Channel</string>
+    <string name="merchant_id_number">Merchant Id Number</string>
+    <string name="joining_date_colon">Joining Date:</string>
+    <string name="company_certificate">Company Certificate</string>
+    <string name="strategic_partner">Strategic Partner</string>
+    <string name="enter_your_email_address">Enter Your Email Address</string>
+    <string name="annual_leave">Annual Leave</string>
+    <string name="sick_leave">Sick Leave</string>
+    <string name="earned_leave">Earned Leave</string>
+    <string name="no_of_days">No. of Days</string>
+    <string name="balance_leaves">Balance Leaves</string>
+    <string name="profit_and_loss_report">Profit &amp; Loss Report</string>
+    <string name="you_are_about_to_make_a_payment">You are about to make a payment</string>
+    <string name="countries">&#8226;UAE\n&#8226;KSA\n&#8226;Oman\n&#8226;Singapore\n&#8226;Jordan\n&#8226;India\n&#8226;Pakisthan\n&#8226;Congo\n&#8226;Guinea</string>
+</resources>

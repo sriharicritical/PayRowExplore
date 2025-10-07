@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout" />
+
+    <ImageView
+        android:id="@+id/ivWatermarkTop"
+        android:layout_width="36dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_icon_watermark"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivWatermarkBelow"
+        android:layout_width="36dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/ic_icon_watermark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="115dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/ivPayRowLogo"
+                android:layout_width="150dp"
+                android:layout_height="48.53dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/icon_payrow"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/ivProfile"
+                android:layout_width="323.77dp"
+                android:layout_height="192.25dp"
+                android:layout_marginTop="9.95dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_payrow_team_meet"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ivPayRowLogo" />
+
+            <Button
+                android:id="@+id/tvFintech"
+                android:layout_width="220dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="12.79dp"
+                android:background="@drawable/layout_round_corner"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text="@string/text_ultimate_fintech_partner"
+                android:textColor="@color/thick_gray"
+                android:textSize="11sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ivProfile" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clAboutUs"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvFintech">
+
+                <TextView
+                    android:id="@+id/tvAboutUsHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/about_us"
+                    android:textColor="@color/color_text_amount"
+                    android:textSize="22sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvAboutUS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/about_us_text"
+                    android:textAlignment="viewStart"
+                    android:textColor="#E54B5050"
+                    android:textSize="13sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvAboutUsHeader" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/about_us_text_two"
+                    android:textAlignment="viewStart"
+                    android:textColor="#E54B5050"
+                    android:textSize="13sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvAboutUS" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <ImageView
+                android:id="@+id/ivPayRowCeo"
+                android:layout_width="280dp"
+                android:layout_height="202dp"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/ic_payrow_ceo"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/clAboutUs" />
+
+            <Button
+                android:id="@+id/tvGhanim"
+                android:layout_width="200dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/layout_round_corner"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text="Ghanim Eid Bin Wogayeh"
+                android:textColor="@color/thick_gray"
+                android:textSize="12sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ivPayRowCeo" />
+
+
+            <TextView
+                android:id="@+id/tvCEO"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="start"
+                android:text="Our CEO - Founder"
+                android:textColor="@color/color_text_amount"
+                android:textSize="22sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvGhanim" />
+
+            <ImageView
+                android:id="@+id/ivFrontQuote"
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="28dp"
+                android:src="@drawable/ic_front_quote"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvCEO" />
+
+            <TextView
+                android:id="@+id/tvQuote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text="@string/about_us_quetation"
+                android:textColor="@color/thick_gray"
+                android:textSize="13sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvCEO" />
+
+            <ImageView
+                android:id="@+id/ivBackQuote"
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="75dp"
+                android:layout_marginEnd="130dp"
+                android:src="@drawable/ic_back_quote"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvCEO" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tvHardware"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="Hardware Products"
+                android:textColor="@color/color_text_amount"
+                android:textSize="22sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvQuote" />
+
+            <Button
+                android:id="@+id/btnCashInvoice"
+                android:layout_width="296dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_round_gray_border_thin"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingStart="16dp"
+                android:paddingEnd="18dp"
+                android:text="Cash Received Machine"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/thick_gray"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvHardware" />
+
+            <Button
+                android:id="@+id/btnQRCode"
+                android:layout_width="296dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_round_gray_border_thin"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingStart="16dp"
+                android:paddingEnd="18dp"
+                android:text="POS &amp; Retail Machine"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/thick_gray"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnCashInvoice" />
+
+
+            <TextView
+                android:id="@+id/tvSoftWare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="Software Products"
+                android:textColor="@color/color_text_amount"
+                android:textSize="22sp"
+                android:visibility="gone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnQRCode" />
+
+
+            <Button
+                android:id="@+id/btnNewPayment1"
+                android:layout_width="296dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_round_gray_border_thin"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingStart="16dp"
+                android:paddingEnd="18dp"
+                android:text="Soft POS"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                android:textColor="@color/thick_gray"
+                android:textSize="14sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvSoftWare" />
+
+            <Button
+                android:id="@+id/btnCashInvoice1"
+                android:layout_width="296dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_round_gray_border_thin"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingStart="16dp"
+                android:paddingEnd="18dp"
+                android:text="Payment Gateway"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/thick_gray"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnNewPayment1" />
+
+            <Button
+                android:id="@+id/btnQRCode1"
+                android:layout_width="296dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_round_gray_border_thin"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingStart="16dp"
+                android:paddingEnd="18dp"
+                android:text="Pay by QR Code"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/thick_gray"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnCashInvoice1" />
+
+            <Button
+                android:id="@+id/btnPayByLink"
+                android:layout_width="296dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_round_gray_border_thin"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingStart="16dp"
+                android:paddingEnd="18dp"
+                android:text="Pay by Link"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/thick_gray"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnQRCode1" />
+
+            <Button
+                android:id="@+id/btnWPS"
+                android:layout_width="296dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_round_gray_border_thin"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingStart="16dp"
+                android:paddingEnd="18dp"
+                android:text="WPS"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/thick_gray"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnPayByLink" />
+
+            <Button
+                android:id="@+id/btnVAT"
+                android:layout_width="296dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_round_gray_border_thin"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingStart="16dp"
+                android:paddingEnd="18dp"
+                android:text="Value-Added Tax(VAT)"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/thick_gray"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnWPS" />
+
+            <Button
+                android:id="@+id/btnEKYC"
+                android:layout_width="296dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_round_gray_border_thin"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingStart="16dp"
+                android:paddingEnd="18dp"
+                android:text="E-KYC"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/thick_gray"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnVAT" />
+
+            <Button
+                android:id="@+id/btnBuyNowLater"
+                android:layout_width="296dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_round_gray_border_thin"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingStart="16dp"
+                android:paddingEnd="18dp"
+                android:text="Buy Now &amp; Pay Later (BNPL)"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/thick_gray"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnEKYC" />
+
+            <Button
+                android:id="@+id/btnWallet"
+                android:layout_width="296dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_round_gray_border_thin"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingStart="16dp"
+                android:paddingEnd="18dp"
+                android:text="Wallet"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/thick_gray"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnBuyNowLater" />
+
+            <Button
+                android:id="@+id/btnPrepaidCard"
+                android:layout_width="296dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_round_gray_border_thin"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingStart="16dp"
+                android:paddingEnd="18dp"
+                android:text="PayRow Prepaid Cards"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/thick_gray"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnWallet" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:text="@string/payrow_footer"
+        android:textColor="@color/color_text_80"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

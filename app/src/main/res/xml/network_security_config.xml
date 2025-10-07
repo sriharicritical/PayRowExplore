@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">www.ducont.ae</domain>
+        <!--<domain includeSubdomains="true">20.74.189.196</domain>-->
+        <domain includeSubdomains="true">20.233.5.209</domain>
+    </domain-config>
+</network-security-config>

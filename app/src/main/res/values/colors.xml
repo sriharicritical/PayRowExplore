@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#888888</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="light_gray">#E1E1E1</color>
+    <color name="lighter_gray">#F3F1F1</color>
+    <color name="color_green">#3EBD37</color>
+    <color name="color_button_blue_thick">#1e3382</color>
+    <color name="color_light_blue">#1681c5</color>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="dark_gray">#888888</color>
+    <color name="color_green_payrow">#72AC47</color>
+    <color name="lightest_gray">#F0F0F0</color>
+    <color name="sky_blue">#EEF7FE</color>
+    <color name="color_black">#000000</color>
+    <color name="white_smoke">#F8F8F8</color>
+    <color name="gray">#333333</color>
+    <color name="color_gray">#CC4B5050</color>
+    <color name="color_pin">#B24B5050</color>
+    <color name="text_color">#994B5050</color>
+
+
+    <color name="color_ash">#4B50500D</color>
+    <color name="color_text">#4B5050</color>
+    <color name="color_text_amount">#333333</color>
+    <color name="color_text_toolbar">#4B5050</color>
+    <color name="color_bg_button_before_selection">#a5a7a7</color>
+    <color name="thick_gray">#4B5050</color>
+    <color name="color_text_70">#B34B5050</color>
+    <color name="color_text_80">#CC4B5050</color>
+    <color name="color_text_50">#804B5050</color>
+    <color name="color_pin_button_border">#4D4B5050</color>
+    <color name="color_date_bg">#FAFAFA</color>
+    <color name="color_item_bg">#0A4B5050</color>
+    <color name="color_items_header">#4C4C4C</color>
+    <color name="color_select_action">#999999</color>
+    <color name="color_status_card">#E3EEDA</color>
+    <color name="color_text_102">#666666</color>
+    <color name="color_gray_90">#E5E5E5</color>
+    <color name="color_bar_graph">#BF4B5050</color>
+    <color name="color_card_stroke">#CCCCCC</color>
+    <color name="color_donut">#80B459</color>
+    <color name="color_text_16">#020202</color>
+    <color name="color_text_25">#191919</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pin_normal">#6B767E</color>
+    <color name="color_49">#313A52</color>
+    <color name="color_orange">#FFA500</color>
+</resources>
